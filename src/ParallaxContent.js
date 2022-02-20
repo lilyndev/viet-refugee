@@ -1,20 +1,32 @@
-import useScreenOrientation from 'react-hook-screen-orientation';
+import useScreenOrientation from "react-hook-screen-orientation";
 import { ParallaxBanner } from "react-scroll-parallax";
+import imgBoatDark from "../src/images/0_intro_background_boat.jpg";
+import imgBus from "../src/images/3_bus.jpg";
+import imgCard from "../src/images/5_ripped_card.jpg";
+import imgLocal from "../src/images/7_local.jpg";
+import imgVungTau from "../src/images/8_vung_tau.jpg";
+import imgEmptyHouse from "../src/images/10_emptyhouse.jpg";
+import imgPants from "../src/images/10_pants.jpg";
+import imgPrison from "../src/images/13_prison.jpg";
+import imgReunited from "../src/images/15_reunited.jpg";
+import imgMessenger from "../src/images/17_bike_messenger.jpg";
+import imgFinalWords from "../src/images/19_final_words.jpg";
+import imgBoatColor from "../src/images/21_boat_color.jpg";
+import imgRescue from "../src/images/23_the_rescue.jpg";
+import imgBlack from "../src/images/black.jpg";
 
 const ParallaxContent = () => {
   const screenOrientation = useScreenOrientation();
 
-  if (screenOrientation === 'portrait-primary' | 'portrait-secondary') {
-    return (
-      <p>Please rotate your device to landscape mode.</p>
-    )
+  if ((screenOrientation === "portrait-primary") | "portrait-secondary") {
+    return <p>Please rotate your device to landscape mode.</p>;
   } else {
     return (
       <>
         <ParallaxBanner
           layers={[
             {
-              image: "/images/0_intro_background_boat.jpg",
+              image: imgBoatDark,
               speed: -20,
             },
           ]}
@@ -33,7 +45,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/black.jpg",
+              image: imgBlack,
               speed: -20,
             },
           ]}
@@ -46,9 +58,9 @@ const ParallaxContent = () => {
                   After the Fall of Saigon (now Ho Chi Minh City) and the end of
                   the <italic-black-slide>Vietnam War</italic-black-slide> in
                   1975, over one million fled the country in southern Vietnam in
-                  fear of retaliation by the communists. Typically
-                  the Vietnamese refugees would use old boats, facing the risks
-                  of starvation, storms, and pirate attacks in the open sea.
+                  fear of retaliation by the communists. Typically the
+                  Vietnamese refugees would use old boats, facing the risks of
+                  starvation, storms, and pirate attacks in the open sea.
                 </p>
                 <p>
                   My father was one of the Vietnamese boat people who{" "}
@@ -62,7 +74,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/3_bus.jpg",
+              image: imgBus,
               speed: -20,
             },
           ]}
@@ -86,7 +98,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/black.jpg",
+              image: imgBlack,
               speed: -20,
             },
           ]}
@@ -97,8 +109,8 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <p>
                   At a street café in Bến Tre, an anonymous helper gave my
-                  father a ripped card as an identifier. The
-                  next day, my father met with another person who checked{" "}
+                  father a ripped card as an identifier. The next day, my father
+                  met with another person who checked{" "}
                   <italic-black-slide>if his card matched</italic-black-slide>{" "}
                   to make sure that he wasn't a betrayer.
                 </p>
@@ -109,7 +121,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/5_ripped_card.jpg",
+              image: imgCard,
               speed: -20,
             },
           ]}
@@ -123,9 +135,8 @@ const ParallaxContent = () => {
                     Following the lead of the helper, my father{" "}
                     <em>walked for hours</em> and took several buses to reach
                     the coast. At the same time they had to{" "}
-                    <strong>keep an eye out</strong> for the{" "}
-                    communists and not awake suspicion among the
-                    locals.{" "}
+                    <strong>keep an eye out</strong> for the communists and not
+                    awake suspicion among the locals.{" "}
                   </p>
                 </div>
               </div>
@@ -135,7 +146,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/black.jpg",
+              image: imgBlack,
               speed: -20,
             },
           ]}
@@ -146,8 +157,8 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <p>
                   When it turned dark, my father and a group of other Vietnamese
-                  people were persecuted by the communists. Suddenly
-                  they heard shooting and had no choice but to{" "}
+                  people were persecuted by the communists. Suddenly they heard
+                  shooting and had no choice but to{" "}
                   <italic-black-slide>run away</italic-black-slide> and use the
                   money they had left to get back to the city.
                 </p>
@@ -158,7 +169,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/7_local.jpg",
+              image: imgLocal,
               speed: -20,
             },
           ]}
@@ -181,7 +192,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/8_vung_tau.jpg",
+              image: imgVungTau,
               speed: -20,
             },
           ]}
@@ -194,8 +205,8 @@ const ParallaxContent = () => {
                   <p>
                     At dawn <strong>the boat</strong> was waiting by the coast
                     of Vũng Tàu. But just when he thought the operation was
-                    successful, the communists caught on to the
-                    refugees and everyone ran away in <em>panic</em>.
+                    successful, the communists caught on to the refugees and
+                    everyone ran away in <em>panic</em>.
                   </p>
                 </div>
               </div>
@@ -205,7 +216,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/10_emptyhouse.jpg",
+              image: imgEmptyHouse,
               speed: -20,
             },
           ]}
@@ -234,7 +245,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/10_pants.jpg",
+              image: imgPants,
               speed: -20,
             },
           ]}
@@ -257,7 +268,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/black.jpg",
+              image: imgBlack,
               speed: -20,
             },
           ]}
@@ -270,8 +281,7 @@ const ParallaxContent = () => {
                   In 1985, at 23 years old, my father was close to achieving his
                   goal, <italic-black-slide>sailing away</italic-black-slide>{" "}
                   near the seaside of Tiền Giang. The boat, however, got stuck
-                  in the rocks and all the refugees were sentenced to{" "}
-                  prison.
+                  in the rocks and all the refugees were sentenced to prison.
                 </p>
               </div>
             </div>
@@ -280,7 +290,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/13_prison.jpg",
+              image: imgPrison,
               speed: -20,
             },
           ]}
@@ -311,7 +321,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/15_reunited.jpg",
+              image: imgReunited,
               speed: -20,
             },
           ]}
@@ -335,7 +345,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/black.jpg",
+              image: imgBlack,
               speed: -20,
             },
           ]}
@@ -349,9 +359,8 @@ const ParallaxContent = () => {
                   <italic-black-slide>messenger</italic-black-slide> was sent
                   for my father. He was told that because he had attempted to
                   flee so many times without luck, the people in charge of the
-                  refugee operation would to let him{" "}
-                  board the last boat without having to pay the
-                  required deposit.
+                  refugee operation would to let him board the last boat without
+                  having to pay the required deposit.
                 </p>
                 <p>
                   Because my mother had{" "}
@@ -366,7 +375,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/17_bike_messenger.jpg",
+              image: imgMessenger,
               speed: -20,
             },
           ]}
@@ -398,7 +407,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/black.jpg",
+              image: imgBlack,
               speed: -20,
             },
           ]}
@@ -413,9 +422,9 @@ const ParallaxContent = () => {
                   want to go without my father.
                 </p>
                 <p>
-                  Filled with mixed emotions, my father made the
-                  last minute decision to leave the country together with my
-                  uncle without my mother knowing.
+                  Filled with mixed emotions, my father made the last minute
+                  decision to leave the country together with my uncle without
+                  my mother knowing.
                 </p>
               </div>
             </div>
@@ -424,7 +433,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/19_final_words.jpg",
+              image: imgFinalWords,
               speed: -20,
             },
           ]}
@@ -453,7 +462,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/black.jpg",
+              image: imgBlack,
               speed: -20,
             },
           ]}
@@ -463,10 +472,9 @@ const ParallaxContent = () => {
             <div className="hsContainer">
               <div className="hsContent">
                 <p>
-                  After three days in the open sea and with only
-                  one potato and a cup of water each day, my father, uncle, and
-                  114 other Vietnamese boat people were rescued by
-                  a German ship.
+                  After three days in the open sea and with only one potato and
+                  a cup of water each day, my father, uncle, and 114 other
+                  Vietnamese boat people were rescued by a German ship.
                 </p>
                 <p>
                   {" "}
@@ -482,7 +490,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/0_intro_background_boat.jpg",
+              image: imgBoatDark,
               speed: -20,
             },
           ]}
@@ -505,7 +513,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/21_boat_color.jpg",
+              image: imgBoatColor,
               speed: -20,
             },
           ]}
@@ -514,7 +522,7 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: "/images/23_the_rescue.jpg",
+              image: imgRescue,
               speed: -20,
             },
           ]}
@@ -531,9 +539,8 @@ const ParallaxContent = () => {
           </div>
         </ParallaxBanner>
       </>
-    )
+    );
   }
-
-}
+};
 
 export default ParallaxContent;

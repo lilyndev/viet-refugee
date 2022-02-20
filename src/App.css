@@ -1,68 +1,6 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* @font-face {
-  font-family: "bodytext";
-  src: url(/fonts/PrestigeEliteStd-Bd.eot);
-  src: url(/fonts/PrestigeEliteStd-Bd.eot?#iefix) format("embedded-opentype"),
-    url(/fonts/PrestigeEliteStd-Bd.woff2) format("woff2"),
-    url(/fonts/PrestigeEliteStd-Bd.woff) format("woff"),
-    url(/fonts/PrestigeEliteStd-Bd.ttf) format("truetype"),
-    url(/fonts/PrestigeEliteStd-Bd.svg#PrestigeEliteStd-Bd) format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "fear";
-  src: url(/fonts/momt-webfont.eot);
-  src: url(/fonts/momt-webfont.eot?#iefix) format("embedded-opentype"),
-    url(/fonts/momt-webfont.woff2) format("woff2"),
-    url(/fonts/momt-webfont.woff) format("woff"),
-    url(/fonts/momt-webfont.ttf) format("truetype"),
-    url(/fonts/momt-webfont.svg#momstypewriterregular) format("svg");
-  font-weight: normal;
-  font-style: normal;
-} */
-
 body {
   font-size: 16px;
+  font-family: "Baskervville", serif;
   line-height: 1.4;
   margin: 0;
 }
@@ -125,7 +63,6 @@ strong {
 .hsIntro a,
 .hsIntro span {
   color: #fff8de;
-  font-family: "bodytext";
 }
 .hsIntro .byline {
   background: rgba(0, 0, 0, 0.6);
@@ -152,11 +89,9 @@ strong {
 fear {
   font-style: italic;
   letter-spacing: 2px;
-  font-family: Georgia;
 }
 
 marker {
-  font-family: "fear";
   font-weight: normal;
   color: #fff8de;
   font-size: 25px;
@@ -178,7 +113,6 @@ green2 {
 }
 
 bold-black-slide {
-  font-family: Gotham;
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 96%;
@@ -187,18 +121,15 @@ bold-black-slide {
 italic-black-slide {
   font-style: italic;
   letter-spacing: 2px;
-  font-family: Georgia;
 }
 
 italic-black-slide2 {
   color: #005170;
   font-style: italic;
   letter-spacing: 2px;
-  font-family: Georgia;
 }
 
 red-black-slide {
-  font-family: "fear";
   font-weight: normal;
   color: #d20003;
   font-size: 25px;
@@ -228,7 +159,7 @@ red {
 }
 .slide-black .hsContent p {
   color: #f2ead6;
-  font-family: baskerville;
+  text-align: left;
   font-weight: normal;
   line-height: 1.45;
   font-size: 1em;
@@ -238,7 +169,6 @@ red {
 .slide-black .hsContent p:first-letter {
   display: block;
   float: left;
-  font-family: Georgia;
   font-size: 310%;
   font-weight: bold;
   line-height: 60%;
@@ -271,7 +201,8 @@ red {
   background: rgba(0, 0, 0, 0.6);
 }
 .slide-photo .hsContent p {
-  font-family: "bodytext";
+  font-family: "Noto Serif", serif;
+  text-align: left;
   color: #f2ead6;
   font-size: 0.9em;
   line-height: 1.4;
