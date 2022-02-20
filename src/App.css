@@ -36,3 +36,370 @@
     transform: rotate(360deg);
   }
 }
+
+/* @font-face {
+  font-family: "bodytext";
+  src: url(/fonts/PrestigeEliteStd-Bd.eot);
+  src: url(/fonts/PrestigeEliteStd-Bd.eot?#iefix) format("embedded-opentype"),
+    url(/fonts/PrestigeEliteStd-Bd.woff2) format("woff2"),
+    url(/fonts/PrestigeEliteStd-Bd.woff) format("woff"),
+    url(/fonts/PrestigeEliteStd-Bd.ttf) format("truetype"),
+    url(/fonts/PrestigeEliteStd-Bd.svg#PrestigeEliteStd-Bd) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "fear";
+  src: url(/fonts/momt-webfont.eot);
+  src: url(/fonts/momt-webfont.eot?#iefix) format("embedded-opentype"),
+    url(/fonts/momt-webfont.woff2) format("woff2"),
+    url(/fonts/momt-webfont.woff) format("woff"),
+    url(/fonts/momt-webfont.ttf) format("truetype"),
+    url(/fonts/momt-webfont.svg#momstypewriterregular) format("svg");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.parallax-banner {
+  height: 100vh;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.bcg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.hsContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.hsContent {
+  max-width: 780px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  padding: 1em;
+}
+.hsContent a {
+  color: #b2b2b2;
+  text-decoration: none;
+}
+.slide-black .hsContent p + p {
+  margin-top: 0;
+}
+.hsIntro {
+  max-width: 800px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 8%;
+  text-align: center;
+  padding: 1em;
+}
+.hsIntro h1 {
+  font-weight: normal;
+  color: #fff8de;
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+.hsIntro h1,
+.hsIntro p,
+.hsIntro a,
+.hsIntro span {
+  color: #fff8de;
+  font-family: "bodytext";
+}
+.hsIntro .byline {
+  background: rgba(0, 0, 0, 0.6);
+  width: 160px;
+  text-align: center;
+  margin: 0 auto 8% auto;
+  padding: 0.5em 0;
+}
+.hsIntro .byline a {
+  color: #88b5dd;
+}
+.hsIntro span.scroll-icon {
+  margin-top: 1em;
+}
+.hsIntro a {
+  text-decoration: underline;
+}
+@media screen and (min-width: 1000px) {
+  .hsIntro h1 {
+    font-size: 2em;
+  }
+}
+
+fear {
+  font-style: italic;
+  letter-spacing: 2px;
+  font-family: Georgia;
+}
+
+marker {
+  font-family: "fear";
+  font-weight: normal;
+  color: #fff8de;
+  font-size: 25px;
+  line-height: 5px;
+}
+
+blue {
+  color: #3a9200;
+}
+
+green {
+  color: #00403c;
+  font-size: 43px;
+  letter-spacing: 1px;
+}
+
+green2 {
+  color: #3a9200;
+}
+
+bold-black-slide {
+  font-family: Gotham;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 96%;
+}
+
+italic-black-slide {
+  font-style: italic;
+  letter-spacing: 2px;
+  font-family: Georgia;
+}
+
+italic-black-slide2 {
+  color: #005170;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-family: Georgia;
+}
+
+red-black-slide {
+  font-family: "fear";
+  font-weight: normal;
+  color: #d20003;
+  font-size: 25px;
+  line-height: 5px;
+}
+
+red {
+  color: #d20003;
+}
+
+/* Slide Black */
+.slide-black.bcg {
+  background-color: #000;
+}
+.slide-black .hsContent {
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slide-black .hsContent p {
+  color: #f2ead6;
+  font-family: baskerville;
+  font-weight: normal;
+  line-height: 1.45;
+  font-size: 1em;
+  margin: auto;
+  max-width: 500px;
+}
+.slide-black .hsContent p:first-letter {
+  display: block;
+  float: left;
+  font-family: Georgia;
+  font-size: 310%;
+  font-weight: bold;
+  line-height: 60%;
+  margin-right: 13px;
+  margin-bottom: -2px;
+  margin-top: 8px;
+}
+@media screen and (min-width: 768px) {
+  .slide-black .hsContent p {
+    font-size: 1.5em;
+    max-width: 800px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .slide-black .hsContent p {
+    font-size: 2em;
+  }
+}
+
+/* Regular slides */
+.slide-photo .hsContent {
+  padding: 3%;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+}
+.slide-photo .hsContent .content {
+  padding: 0.8em;
+  background: rgba(0, 0, 0, 0.6);
+}
+.slide-photo .hsContent p {
+  font-family: "bodytext";
+  color: #f2ead6;
+  font-size: 0.9em;
+  line-height: 1.4;
+  margin: 0 auto;
+}
+.slide-photo .hsContent p:not(:last-child) {
+  padding-bottom: 0.5em;
+}
+@media screen and (min-width: 680px) {
+  .slide-photo .hsContent {
+    padding: 6%;
+  }
+  .slide-photo .hsContent p {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 768px) {
+  .slide-photo .hsContent {
+    bottom: auto;
+  }
+  .slide-photo .hsContent p {
+    font-size: 1.2em;
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .slide-photoe .hsContent {
+    padding: 0;
+  }
+}
+
+/* Slide 3: Bus */
+@media screen and (min-width: 1000px) {
+  #slide-3 .hsContent {
+    margin-top: 15%;
+    max-width: 550px;
+  }
+}
+
+/* Slide 5: Ripped Card */
+#slide-5 .hsContent {
+  max-width: 55%;
+  text-align: right;
+  background: none;
+  margin-top: 0;
+  margin-right: 0;
+  right: 0;
+  top: 0;
+}
+@media screen and (min-width: 1000px) {
+  #slide-5 .hsContent {
+    margin-right: 3%;
+    margin-top: 5%;
+    max-width: 510px;
+  }
+}
+
+/* Slide 7: Second Attempt */
+@media screen and (min-width: 1000px) {
+  #slide-7 .hsContent {
+    margin-left: 6%;
+    max-width: 570px;
+    bottom: 5%;
+  }
+}
+
+/* Slide 8: Vung Tau */
+@media screen and (min-width: 1000px) {
+  #slide-8 .hsContent {
+    margin-right: 6%;
+    max-width: 570px;
+    bottom: 5%;
+    right: 0;
+  }
+}
+
+/* Slide 10: Empty house */
+@media screen and (min-width: 1000px) {
+  #slide-10 .hsContent {
+    margin-right: 6%;
+    max-width: 570px;
+    bottom: 5%;
+    right: 0;
+  }
+}
+
+/* Slide 12/13: Prison */
+@media screen and (min-width: 1000px) {
+  #slide-12 .hsContent {
+    margin-right: 3%;
+    margin-top: 12%;
+    max-width: 570px;
+  }
+}
+#slide-13 .hsContent {
+  margin-right: 3%;
+  margin-top: 12%;
+  max-width: 570px;
+  text-align: left;
+  background: none;
+}
+@media screen and (min-width: 1000px) {
+  #slide-13 .hsContent {
+    margin-right: 3%;
+    margin-top: 12%;
+    max-width: 570px;
+  }
+}
+
+/* Slide 14: reunited */
+@media screen and (min-width: 1000px) {
+  #slide-14 .hsContent {
+    margin-top: 19%;
+    max-width: 740px;
+  }
+}
+
+/* Slide 16: bike messenger */
+@media screen and (min-width: 1000px) {
+  #slide-16 .hsContent {
+    max-width: 670px;
+  }
+}
+
+/* Slide 18: Final words */
+@media screen and (min-width: 1000px) {
+  #slide-18 .hsContent {
+    margin-top: 19%;
+    max-width: 860px;
+  }
+}
