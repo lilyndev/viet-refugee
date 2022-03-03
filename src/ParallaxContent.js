@@ -1,6 +1,7 @@
 import useScreenOrientation from "react-hook-screen-orientation";
 import { ParallaxBanner } from "react-scroll-parallax";
 import imgBoatDark from "../src/images/0_intro_background_boat.jpg";
+import imgBoatDarkForeground from "../src/images/0_intro_background_boat--foreground.png";
 import imgBus from "../src/images/3_bus.jpg";
 import imgCard from "../src/images/5_ripped_card.jpg";
 import imgLocal from "../src/images/7_local.jpg";
@@ -25,10 +26,8 @@ const ParallaxContent = () => {
       <>
         <ParallaxBanner
           layers={[
-            {
-              image: imgBoatDark,
-              speed: -20,
-            },
+            { image: imgBoatDark, speed: -20 },
+            { image: imgBoatDarkForeground, speed: -10 },
           ]}
           className="parallax-banner"
         >
