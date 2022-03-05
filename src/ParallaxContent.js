@@ -473,7 +473,6 @@ const ParallaxContent = () => {
                   Vietnamese boat people were <span className="green2">rescued</span> by a German ship.
                 </p>
                 <p>
-                  &nbsp;
                   The German captain reported back home what he saw and his fear
                   that the refugees would not survive the coming storm - he was
                   told to let the Vietnamese boat people&nbsp;
