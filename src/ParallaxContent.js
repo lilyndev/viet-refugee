@@ -4,14 +4,17 @@ import imgBoatDark from "../src/images/0_intro_background_boat.jpg";
 import imgBoatDarkForeground from "../src/images/0_intro_background_boat--foreground.png";
 import imgBus from "../src/images/3_bus.jpg";
 import imgCard from "../src/images/5_ripped_card.jpg";
+import imgCardForeground from "../src/images/5_ripped_card--foreground.png";
 import imgLocal from "../src/images/7_local.jpg";
 import imgVungTau from "../src/images/8_vung_tau.jpg";
 import imgEmptyHouse from "../src/images/10_emptyhouse.jpg";
 import imgPants from "../src/images/10_pants.jpg";
 import imgPrison from "../src/images/13_prison.jpg";
 import imgReunited from "../src/images/15_reunited.jpg";
+import imgReunitedForeground from "../src/images/15_reunited--foreground.png";
 import imgMessenger from "../src/images/17_bike_messenger.jpg";
 import imgFinalWords from "../src/images/19_final_words.jpg";
+import imgBoatBlackWhite from "../src/images/21_boat_blackwhite.jpg";
 import imgBoatColor from "../src/images/21_boat_color.jpg";
 import imgRescue from "../src/images/23_the_rescue.jpg";
 import imgBlack from "../src/images/black.jpg";
@@ -32,12 +35,14 @@ const ParallaxContent = () => {
           className="parallax-banner"
         >
           <div className="bcg" id="slide-1">
-            <div className="hsIntro">
-              <h1>&quot;1988&quot;: A Vietnamese Boat Refugee Story</h1>
-              <p className="byline">
-                By <a href="http://www.lilyn.dev">Lily Nguyen</a>
-              </p>
-              <span className="scroll-icon">Scroll</span>
+            <div className="hsContainer dark">
+              <div className="hsIntro">
+                <h1>&quot;1988&quot;: A Vietnamese Boat Refugee Story</h1>
+                <p className="byline">
+                  By <a href="http://www.lilyn.dev">Lily Nguyen</a>
+                </p>
+                <span className="scroll-icon">Scroll</span>
+              </div>
             </div>
           </div>
         </ParallaxBanner>
@@ -80,7 +85,7 @@ const ParallaxContent = () => {
           className="parallax-banner"
         >
           <div className="bcg slide-photo" id="slide-3">
-            <div className="hsContainer">
+            <div className="hsContainer dark">
               <div className="hsContent">
                 <div className="content">
                   <p>
@@ -119,15 +124,13 @@ const ParallaxContent = () => {
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
-            {
-              image: imgCard,
-              speed: -20,
-            },
+            { image: imgCard, speed: -20 },
+            { image: imgCardForeground, speed: -10 },
           ]}
           className="parallax-banner"
         >
           <div className="bcg slide-photo" id="slide-5">
-            <div className="hsContainer">
+            <div className="hsContainer light">
               <div className="hsContent">
                 <div className="content">
                   <p>
@@ -175,7 +178,7 @@ const ParallaxContent = () => {
           className="parallax-banner"
         >
           <div className="bcg slide-photo" id="slide-7">
-            <div className="hsContainer">
+            <div className="hsContainer dark">
               <div className="hsContent">
                 <div className="content">
                   <p>
@@ -198,7 +201,7 @@ const ParallaxContent = () => {
           className="parallax-banner"
         >
           <div className="bcg slide-photo" id="slide-8">
-            <div className="hsContainer">
+            <div className="hsContainer dark">
               <div className="hsContent">
                 <div className="content">
                   <p>
@@ -296,7 +299,7 @@ const ParallaxContent = () => {
           className="parallax-banner"
         >
           <div className="bcg slide-photo" id="slide-12">
-            <div className="hsContainer">
+            <div className="hsContainer dark">
               <div className="hsContent">
                 <div className="content">
                   <p>
@@ -318,15 +321,13 @@ const ParallaxContent = () => {
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
-            {
-              image: imgReunited,
-              speed: -20,
-            },
+            { image: imgReunited, speed: -20 },
+            { image: imgReunitedForeground, speed: -10 },
           ]}
           className="parallax-banner"
         >
           <div className="bcg slide-photo" id="slide-14">
-            <div className="hsContainer">
+            <div className="hsContainer light">
               <div className="hsContent">
                 <div className="content">
                   <p>
@@ -380,7 +381,7 @@ const ParallaxContent = () => {
           className="parallax-banner"
         >
           <div className="bcg slide-photo" id="slide-16">
-            <div className="hsContainer">
+            <div className="hsContainer dark">
               <div className="hsContent">
                 <div className="content">
                   <p>
@@ -485,14 +486,14 @@ const ParallaxContent = () => {
         <ParallaxBanner
           layers={[
             {
-              image: imgBoatDark,
+              image: imgBoatBlackWhite,
               speed: -20,
             },
           ]}
           className="parallax-banner"
         >
           <div className="bcg slide-photo" id="slide-20">
-            <div className="hsContainer">
+            <div className="hsContainer dark">
               <div className="hsContent">
                 <div className="content">
                   <p>

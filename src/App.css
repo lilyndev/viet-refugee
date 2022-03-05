@@ -21,19 +21,26 @@ strong {
   height: 100%;
   width: 100%;
 }
-.bcg::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-}
 
 .hsContainer {
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
+}
+.hsContainer.dark::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.hsContainer.light::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .hsContent {
   max-width: 780px;
@@ -199,8 +206,8 @@ strong {
     line-height: 1.65;
   }
   .slide-black .hsContent p:first-letter {
-    margin-top: 24px;
-    margin-right: 20px;
+    font-size: 345%;
+    margin-top: 19px;
   }
 }
 
