@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  font-family: "Baskervville", serif;
+  font-family: 'Libre Baskerville', serif;
   line-height: 1.4;
   margin: 0;
 }
@@ -26,7 +26,7 @@ strong {
   display: block;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .hsContainer {
@@ -94,57 +94,58 @@ strong {
   }
 }
 
-fear {
+.fear {
   font-style: italic;
   letter-spacing: 2px;
 }
 
-marker {
+.marker {
   font-weight: normal;
   color: #fff8de;
   font-size: 25px;
   line-height: 5px;
 }
 
-blue {
+.blue {
   color: #3a9200;
 }
 
-green {
+.green {
   color: #00403c;
   font-size: 43px;
   letter-spacing: 1px;
 }
 
-green2 {
+.green2 {
   color: #3a9200;
 }
 
-bold-black-slide {
+.bold-black-slide {
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 96%;
 }
 
-italic-black-slide {
+.italic-black-slide {
   font-style: italic;
+  font-weight: bold;
   letter-spacing: 2px;
 }
 
-italic-black-slide2 {
+.italic-black-slide2 {
   color: #005170;
   font-style: italic;
   letter-spacing: 2px;
 }
 
-red-black-slide {
+.red-black-slide {
   font-weight: normal;
   color: #d20003;
   font-size: 25px;
   line-height: 5px;
 }
 
-red {
+.red {
   color: #d20003;
 }
 
@@ -193,6 +194,11 @@ red {
 @media screen and (min-width: 1000px) {
   .slide-black .hsContent p {
     font-size: 2em;
+    line-height: 1.65;
+  }
+  .slide-black .hsContent p:first-letter {
+    margin-top: 24px;
+    margin-right: 20px;
   }
 }
 
@@ -209,7 +215,7 @@ red {
   background: rgba(0, 0, 0, 0.6);
 }
 .slide-photo .hsContent p {
-  font-family: "Noto Serif", serif;
+  font-family: 'Cutive Mono', monospace;
   text-align: left;
   color: #f2ead6;
   font-size: 0.9em;

@@ -55,16 +55,16 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <p>
                   After the Fall of Saigon (now Ho Chi Minh City) and the end of
-                  the <italic-black-slide>Vietnam War</italic-black-slide> in
+                  the <span className="italic-black-slide">Vietnam War</span> in
                   1975, over one million fled the country in southern Vietnam in
-                  fear of retaliation by the communists. Typically the
+                  fear of retaliation by the <span className="red">communists</span>. Typically the
                   Vietnamese refugees would use old boats, facing the risks of
                   starvation, storms, and pirate attacks in the open sea.
                 </p>
                 <p>
-                  My father was one of the Vietnamese boat people who{" "}
-                  <italic-black-slide>fled the country</italic-black-slide> in
-                  1988 - five days after I was born.
+                  My father was one of the Vietnamese boat people who&nbsp;
+                  <span className="italic-black-slide">fled the country</span> in
+                  1988 &#8212; five days after I was born.
                 </p>
               </div>
             </div>
@@ -84,9 +84,9 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <div className="content">
                   <p>
-                    When my father made his <em>first escape attempt</em>, at 21
-                    years old, he had to travel for hours to get to the{" "}
-                    <strong>awaiting boat</strong> by the seaside of Bến Tre,
+                    When my father made his <span className="italic-black-slide">first escape attempt</span>, at 21
+                    years old, he had to travel for hours to get to the
+                    awaiting boat by the seaside of Bến Tre,
                     far away from his hometown, Sài Gòn.
                   </p>
                 </div>
@@ -108,9 +108,9 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <p>
                   At a street café in Bến Tre, an anonymous helper gave my
-                  father a ripped card as an identifier. The next day, my father
-                  met with another person who checked{" "}
-                  <italic-black-slide>if his card matched</italic-black-slide>{" "}
+                  father a <span className="green2">ripped card</span> as an identifier. The next day, my father
+                  met with another person who checked&nbsp;
+                  <span className="italic-black-slide">if his card matched</span>&nbsp;
                   to make sure that he wasn't a betrayer.
                 </p>
               </div>
@@ -131,11 +131,11 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <div className="content">
                   <p>
-                    Following the lead of the helper, my father{" "}
-                    <em>walked for hours</em> and took several buses to reach
-                    the coast. At the same time they had to{" "}
-                    <strong>keep an eye out</strong> for the communists and not
-                    awake suspicion among the locals.{" "}
+                    Following the lead of the helper, my father&nbsp;
+                    <span className="italic-black-slide">walked for hours</span> and took several buses to reach
+                    the coast. At the same time they had to
+                    keep an eye out for the <span className="red">communists</span> and not
+                    awake suspicion among the locals.&nbsp;
                   </p>
                 </div>
               </div>
@@ -156,9 +156,9 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <p>
                   When it turned dark, my father and a group of other Vietnamese
-                  people were persecuted by the communists. Suddenly they heard
-                  shooting and had no choice but to{" "}
-                  <italic-black-slide>run away</italic-black-slide> and use the
+                  people were persecuted by the <span className="red">communists</span>. Suddenly they heard
+                  <span className="red"> shooting</span> and had no choice but to&nbsp;
+                  <span className="italic-black-slide">run away</span> and use the
                   money they had left to get back to the city.
                 </p>
               </div>
@@ -179,8 +179,8 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <div className="content">
                   <p>
-                    My father was <em>determined</em> to make{" "}
-                    <strong>a second attempt</strong> and traveled this time to
+                    My father was <span className="italic-black-slide">determined</span> to make&nbsp;
+                    a second attempt and traveled this time to
                     another city near the Southern coast of Vietnam.
                   </p>
                 </div>
@@ -202,10 +202,10 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <div className="content">
                   <p>
-                    At dawn <strong>the boat</strong> was waiting by the coast
+                    At dawn the boat was waiting by the coast
                     of Vũng Tàu. But just when he thought the operation was
-                    successful, the communists caught on to the refugees and
-                    everyone ran away in <em>panic</em>.
+                    successful, the <span className="red">communists</span> caught on to the refugees and
+                    everyone ran away in <span className="italic-black-slide">panic</span>.
                   </p>
                 </div>
               </div>
@@ -225,17 +225,17 @@ const ParallaxContent = () => {
             <div className="hsContainer">
               <div className="hsContent">
                 <p>
-                  In 1984, <italic-black-slide>my mother</italic-black-slide>{" "}
+                  In 1984, <span className="italic-black-slide">my mother</span>&nbsp;
                   encouraged my father to meet with a man she had met and whom
                   she believed would be able to get my father out of the
                   country. It turned out this man could not be trusted.
                 </p>
                 <p>
-                  During this{" "}
-                  <italic-black-slide>third attempt</italic-black-slide>, my
+                  During this&nbsp;
+                  <span className="italic-black-slide">third attempt</span>, my
                   father was left alone in a house far away in the country side.
                   Luckily, a local offered her help, because she knew that my
-                  father had been deceived.
+                  father had been <span className="red">deceived</span>.
                 </p>
               </div>
             </div>
@@ -255,8 +255,8 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <div className="content">
                   <p>
-                    Not having <strong>any money left</strong>, my father{" "}
-                    <em>begged</em> the woman to help him sell his pair of jeans
+                    Not having any money left, my father&nbsp;
+                    <span className="italic-black-slide">begged</span> the woman to help him sell his pair of jeans
                     so that he could afford a return ticket home to Sài Gòn.
                   </p>
                 </div>
@@ -278,9 +278,9 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <p>
                   In 1985, at 23 years old, my father was close to achieving his
-                  goal, <italic-black-slide>sailing away</italic-black-slide>{" "}
+                  goal, <span className="italic-black-slide">sailing away</span>&nbsp;
                   near the seaside of Tiền Giang. The boat, however, got stuck
-                  in the rocks and all the refugees were sentenced to prison.
+                  in the rocks and all the refugees were sentenced to <span className="red">prison</span>.
                 </p>
               </div>
             </div>
@@ -300,16 +300,15 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <div className="content">
                   <p>
-                    Prisoners had to <em>work</em> from 6 AM to 6 PM everyday
+                    Prisoners had to <span className="italic-black-slide">work</span> from 6 AM to 6 PM everyday
                     building a long road deep in the forest. Anyone who couldn't
-                    handle the <strong>pressure</strong> was buried to the neck
+                    handle the pressure was buried to the neck
                     in mud and left from morning to evening.
                   </p>
                   <p>
                     Family visits were only allowed twice a month. During
-                    visitations, <strong>my mother</strong> and{" "}
-                    <strong>grandmother</strong> were allowed to give my father
-                    a small bag of rice and only exchange a <em>few words</em>{" "}
+                    visitations, my mother and grandmother were allowed to give my father
+                    a small bag of rice and only exchange a <span className="italic-black-slide">few words</span>&nbsp;
                     with each other.
                   </p>
                 </div>
@@ -331,9 +330,9 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <div className="content">
                   <p>
-                    After two years in prison, my father was{" "}
-                    <strong>reunited</strong> with my mother in 1987. But at
-                    this point he had <em>given up all hope</em> of leaving the
+                    After <span className="red">two years in prison</span>, my father was
+                    reunited with my mother in 1987. But at
+                    this point he had <span className="italic-black-slide">given up all hope</span> of leaving the
                     country.
                   </p>
                 </div>
@@ -354,16 +353,16 @@ const ParallaxContent = () => {
             <div className="hsContainer">
               <div className="hsContent">
                 <p>
-                  In 1988, a few days after I was born, a bike{" "}
-                  <italic-black-slide>messenger</italic-black-slide> was sent
+                  In 1988, a few days after I was born, a bike&nbsp;
+                  <span className="italic-black-slide">messenger</span> was sent
                   for my father. He was told that because he had attempted to
                   flee so many times without luck, the people in charge of the
-                  refugee operation would to let him board the last boat without
+                  refugee operation would to let him <span className="green2">board the last boat</span> without
                   having to pay the required deposit.
                 </p>
                 <p>
-                  Because my mother had{" "}
-                  <italic-black-slide>just given birth</italic-black-slide>, my
+                  Because my mother had&nbsp;
+                  <span className="italic-black-slide">just given birth</span>, my
                   father declined the offer and asked the woman in charge of the
                   operation to let my uncle go instead.
                 </p>
@@ -396,7 +395,7 @@ const ParallaxContent = () => {
                   <p>
                     [The messenger]: &quot;...okay! But let me tell you that
                     this is the last boat. If you choose to stay, you will not
-                    get another chance to leave the country!&quot;{" "}
+                    get another chance to leave the country!&quot;&nbsp;
                   </p>
                 </div>
               </div>
@@ -416,14 +415,14 @@ const ParallaxContent = () => {
             <div className="hsContainer">
               <div className="hsContent">
                 <p>
-                  When my uncle was about to leave the country, he{" "}
-                  <italic-black-slide>hesitated</italic-black-slide> and didn't
+                  When my uncle was about to leave the country, he&nbsp;
+                  <span className="italic-black-slide">hesitated</span> and didn't
                   want to go without my father.
                 </p>
                 <p>
-                  Filled with mixed emotions, my father made the last minute
-                  decision to leave the country together with my uncle without
-                  my mother knowing.
+                  Filled with <span className="italic-black-slide">mixed emotions</span>, my father made the last minute
+                  decision to leave the country together with my uncle <span className="red">without
+                  my mother knowing</span>.
                 </p>
               </div>
             </div>
@@ -447,10 +446,8 @@ const ParallaxContent = () => {
                     refugee operation:
                   </p>
                   <p>
-                    {" "}
                     "I don't have anything left besides my house. If you let me
-                    go with my brother and I come out of this alive, I will let{" "}
-                    <strong>my wife</strong> know to sell our house and pay you
+                    go with my brother and I come out of this alive, I will let my wife know to sell our house and pay you
                     back!"
                   </p>
                 </div>
@@ -471,16 +468,16 @@ const ParallaxContent = () => {
             <div className="hsContainer">
               <div className="hsContent">
                 <p>
-                  After three days in the open sea and with only one potato and
+                  After three days in the <span className="italic-black-slide">open sea</span> and with only one potato and
                   a cup of water each day, my father, uncle, and 114 other
-                  Vietnamese boat people were rescued by a German ship.
+                  Vietnamese boat people were <span className="green2">rescued</span> by a German ship.
                 </p>
                 <p>
-                  {" "}
+                  &nbsp;
                   The German captain reported back home what he saw and his fear
                   that the refugees would not survive the coming storm - he was
-                  told to let the Vietnamese boat people{" "}
-                  <italic-black-slide>board the ship</italic-black-slide>.
+                  told to let the Vietnamese boat people&nbsp;
+                  <span className="italic-black-slide">board the ship</span>.
                 </p>
               </div>
             </div>
@@ -500,9 +497,9 @@ const ParallaxContent = () => {
               <div className="hsContent">
                 <div className="content">
                   <p>
-                    My father could not believe that his <strong>dream</strong>{" "}
-                    of a better future for his family had{" "}
-                    <strong>come true</strong>.
+                    My father could not believe that his dream
+                    of a better future for his family had
+                    come true.
                   </p>
                 </div>
               </div>
@@ -517,7 +514,17 @@ const ParallaxContent = () => {
             },
           ]}
           className="parallax-banner"
-        />
+        >
+          <div className="bcg slide-photo" id="slide-22">
+            <div className="hsContainer">
+              <div className="hsContent">
+                <div className="content">
+                  <p>The rescue in 1988.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ParallaxBanner>
         <ParallaxBanner
           layers={[
             {
