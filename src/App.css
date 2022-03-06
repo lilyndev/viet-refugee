@@ -1,12 +1,15 @@
 body {
   font-size: 16px;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   line-height: 1.4;
   margin: 0;
 }
 
 .parallax-banner {
   height: 100vh;
+}
+.parallax-banner > div:first-child {
+  inset: 0 !important;
 }
 
 strong {
@@ -118,12 +121,6 @@ strong {
 }
 
 .green {
-  color: #00403c;
-  font-size: 43px;
-  letter-spacing: 1px;
-}
-
-.green2 {
   color: #3a9200;
 }
 
@@ -224,7 +221,7 @@ strong {
   background: rgba(0, 0, 0, 0.6);
 }
 .slide-photo .hsContent p {
-  font-family: 'Cutive Mono', monospace;
+  font-family: "Cutive Mono", monospace;
   text-align: left;
   color: #f2ead6;
   font-size: 0.9em;
