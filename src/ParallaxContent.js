@@ -532,7 +532,7 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-photo" id="slide-22">
+          <div className="bcg slide-photo" id="slide-21">
             <div className="hsContainer">
               <div className="hsContent">
                 <div className="content">
