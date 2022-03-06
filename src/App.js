@@ -5,9 +5,7 @@ import ParallaxContent from "./ParallaxContent";
 function App() {
   return (
     <div className="App">
-      <main>
-        <ParallaxContent />
-      </main>
+      <ParallaxContent />
     </div>
   );
 }

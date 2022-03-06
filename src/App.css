@@ -60,7 +60,7 @@ strong {
 .slide-black .hsContent p + p {
   margin-top: 0;
 }
-.hsIntro {
+header {
   max-width: 800px;
   position: absolute;
   left: 0;
@@ -70,36 +70,36 @@ strong {
   text-align: center;
   padding: 1em;
 }
-.hsIntro h1 {
+header h1 {
   font-weight: normal;
   color: #fff8de;
   font-size: 1.5em;
   line-height: 1.2;
 }
-.hsIntro h1,
-.hsIntro p,
-.hsIntro a,
-.hsIntro span {
+header h1,
+header p,
+header a,
+header span {
   color: #fff8de;
 }
-.hsIntro .byline {
+header .byline {
   background: rgba(0, 0, 0, 0.6);
   width: 160px;
   text-align: center;
   margin: 0 auto 8% auto;
   padding: 0.5em 0;
 }
-.hsIntro .byline a {
+header .byline a {
   color: #88b5dd;
 }
-.hsIntro span.scroll-icon {
+header span.scroll-icon {
   margin-top: 1em;
 }
-.hsIntro a {
+header a {
   text-decoration: underline;
 }
 @media screen and (min-width: 1000px) {
-  .hsIntro h1 {
+  header h1 {
     font-size: 2em;
   }
 }
@@ -270,7 +270,7 @@ strong {
   margin-top: 0;
   margin-right: 0;
   right: 0;
-  top: 0;
+  bottom: 0;
 }
 @media screen and (min-width: 1000px) {
   #slide-5 .hsContent {
