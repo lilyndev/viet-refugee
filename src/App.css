@@ -16,36 +16,28 @@ strong {
   font-weight: bold;
 }
 
-.bcg {
+.container {
   position: relative;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-}
-
-.hsContainer {
-  width: 100%;
-  height: 100%;
   overflow: hidden;
-  position: relative;
+  height: 100%;
+  width: 100%;
 }
-.hsContainer.dark::after {
+.container.dark::after {
   content: "";
   display: block;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.65);
 }
-.hsContainer.light::after {
+.container.light::after {
   content: "";
   display: block;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
 }
-.hsContent {
+
+.content {
   max-width: 780px;
   position: relative;
   margin-left: auto;
@@ -53,13 +45,11 @@ strong {
   margin-top: 20%;
   padding: 1em;
 }
-.hsContent a {
+.content a {
   color: #b2b2b2;
   text-decoration: none;
 }
-.slide-black .hsContent p + p {
-  margin-top: 0;
-}
+
 header {
   max-width: 800px;
   position: absolute;
@@ -124,29 +114,10 @@ header a {
   color: #3a9200;
 }
 
-.bold-black-slide {
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-size: 96%;
-}
-
-.italic-black-slide {
+.italic {
   font-style: italic;
   font-weight: bold;
   letter-spacing: 2px;
-}
-
-.italic-black-slide2 {
-  color: #005170;
-  font-style: italic;
-  letter-spacing: 2px;
-}
-
-.red-black-slide {
-  font-weight: normal;
-  color: #d20003;
-  font-size: 25px;
-  line-height: 5px;
 }
 
 .red {
@@ -154,10 +125,10 @@ header a {
 }
 
 /* Slide Black */
-.slide-black.bcg {
+.slide-black.container {
   background-color: #000;
 }
-.slide-black .hsContent {
+.slide-black .content {
   height: 100%;
   margin: 0;
   position: absolute;
@@ -170,7 +141,7 @@ header a {
   flex-direction: column;
   align-items: center;
 }
-.slide-black .hsContent p {
+.slide-black .content p {
   color: #f2ead6;
   text-align: left;
   font-weight: normal;
@@ -179,7 +150,7 @@ header a {
   margin: auto;
   max-width: 500px;
 }
-.slide-black .hsContent p:first-letter {
+.slide-black .content p:first-letter {
   display: block;
   float: left;
   font-size: 310%;
@@ -188,39 +159,39 @@ header a {
   margin-right: 8px;
   margin-top: 9px;
 }
+.slide-black .content p + p {
+  margin-top: 0;
+}
 @media screen and (min-width: 768px) {
-  .slide-black .hsContent p {
+  .slide-black .content p {
     font-size: 1.4em;
     max-width: 800px;
   }
-  .slide-black .hsContent p:first-letter {
+  .slide-black .content p:first-letter {
     margin-top: 12px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .slide-black .hsContent p {
+  .slide-black .content p {
     font-size: 1.9em;
     line-height: 1.65;
   }
-  .slide-black .hsContent p:first-letter {
+  .slide-black .content p:first-letter {
     font-size: 345%;
     margin-top: 19px;
   }
 }
 
 /* Regular slides */
-.slide-photo .hsContent {
-  padding: 3%;
-  margin: 0;
+.slide-photo .content {
+  margin: 2%;
   position: absolute;
   bottom: 0;
   text-align: left;
-}
-.slide-photo .hsContent .content {
   padding: 0.8em;
   background: rgba(0, 0, 0, 0.6);
 }
-.slide-photo .hsContent p {
+.slide-photo .content p {
   font-family: "Cutive Mono", monospace;
   text-align: left;
   color: #f2ead6;
@@ -228,22 +199,22 @@ header a {
   line-height: 1.4;
   margin: 0 auto;
 }
-.slide-photo .hsContent p:not(:last-child) {
+.slide-photo .content p:not(:last-child) {
   padding-bottom: 0.5em;
 }
 @media screen and (min-width: 680px) {
-  .slide-photo .hsContent {
-    padding: 6%;
+  .slide-photo .content {
+    margin: 6%;
   }
-  .slide-photo .hsContent p {
+  .slide-photo .content p {
     font-size: 1em;
   }
 }
 @media screen and (min-width: 768px) {
-  .slide-photo .hsContent {
+  .slide-photo .content {
     bottom: auto;
   }
-  .slide-photo .hsContent p {
+  .slide-photo .content p {
     font-size: 1.1em;
     max-width: 450px;
   }
@@ -251,24 +222,23 @@ header a {
 
 /* Slide 3: Bus */
 @media screen and (min-width: 1000px) {
-  #slide-3 .hsContent {
+  #slide-3 .content {
     margin-top: 15%;
     max-width: 550px;
   }
 }
 
 /* Slide 5: Ripped Card */
-#slide-5 .hsContent {
+#slide-5 .content {
   max-width: 55%;
   text-align: right;
-  background: none;
   margin-top: 0;
   margin-right: 0;
   right: 0;
   bottom: 0;
 }
 @media screen and (min-width: 1000px) {
-  #slide-5 .hsContent {
+  #slide-5 .content {
     margin-right: 3%;
     margin-top: 5%;
     max-width: 510px;
@@ -277,7 +247,7 @@ header a {
 
 /* Slide 7: Second Attempt */
 @media screen and (min-width: 1000px) {
-  #slide-7 .hsContent {
+  #slide-7 .content {
     margin-left: 6%;
     max-width: 570px;
     bottom: 5%;
@@ -286,7 +256,7 @@ header a {
 
 /* Slide 8: Vung Tau */
 @media screen and (min-width: 1000px) {
-  #slide-8 .hsContent {
+  #slide-8 .content {
     margin-right: 6%;
     max-width: 570px;
     bottom: 5%;
@@ -296,7 +266,7 @@ header a {
 
 /* Slide 10: Empty house */
 @media screen and (min-width: 1000px) {
-  #slide-10 .hsContent {
+  #slide-10 .content {
     margin-right: 6%;
     max-width: 570px;
     bottom: 5%;
@@ -306,13 +276,13 @@ header a {
 
 /* Slide 12/13: Prison */
 @media screen and (min-width: 1000px) {
-  #slide-12 .hsContent {
+  #slide-12 .content {
     margin-right: 3%;
     margin-top: 12%;
     max-width: 570px;
   }
 }
-#slide-13 .hsContent {
+#slide-13 .content {
   margin-right: 3%;
   margin-top: 12%;
   max-width: 570px;
@@ -320,7 +290,7 @@ header a {
   background: none;
 }
 @media screen and (min-width: 1000px) {
-  #slide-13 .hsContent {
+  #slide-13 .content {
     margin-right: 3%;
     margin-top: 12%;
     max-width: 570px;
@@ -329,7 +299,7 @@ header a {
 
 /* Slide 14: reunited */
 @media screen and (min-width: 1000px) {
-  #slide-14 .hsContent {
+  #slide-14 .content {
     margin-top: 19%;
     max-width: 740px;
   }
@@ -337,31 +307,27 @@ header a {
 
 /* Slide 16: bike messenger */
 @media screen and (min-width: 1000px) {
-  #slide-16 .hsContent {
+  #slide-16 .content {
     max-width: 670px;
   }
 }
 
 /* Slide 18: Final words */
 @media screen and (min-width: 1000px) {
-  #slide-18 .hsContent {
+  #slide-18 .content {
     margin-top: 19%;
     max-width: 860px;
   }
 }
 
 /* End slides */
-.slide-end .hsContent {
+.slide-end .content {
   padding: 3%;
   margin: 0 auto;
   text-align: left;
   max-width: 670px;
 }
-.slide-end .hsContent .content {
-  padding: 0.8em;
-  background: rgba(0, 0, 0, 0.6);
-}
-.slide-end .hsContent p {
+.slide-end .content p {
   font-family: "Cutive Mono", monospace;
   text-align: left;
   color: #f2ead6;
@@ -369,19 +335,19 @@ header a {
   line-height: 1.4;
   margin: 0 auto;
 }
-.slide-end .hsContent p:not(:last-child) {
+.slide-end .content p:not(:last-child) {
   padding-bottom: 0.5em;
 }
 @media screen and (min-width: 680px) {
-  .slide-end .hsContent {
+  .slide-end .content {
     padding: 5% 6% 1% 6%;
   }
-  .slide-end .hsContent p {
+  .slide-end .content p {
     font-size: 1em;
   }
 }
 @media screen and (min-width: 768px) {
-  .slide-end .hsContent p {
+  .slide-end .content p {
     font-size: 1.1em;
   }
 }

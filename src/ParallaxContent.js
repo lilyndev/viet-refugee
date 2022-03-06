@@ -1,5 +1,7 @@
 import useScreenOrientation from "react-hook-screen-orientation";
 import { ParallaxBanner } from "react-scroll-parallax";
+import BlackSLide from "./components/BlackSlide";
+import PhotoSlide from "./components/PhotoSlide";
 import imgBoatDark from "../src/images/0_intro_background_boat.jpg";
 import imgBoatDarkForeground from "../src/images/0_intro_background_boat--foreground.png";
 import imgBus from "../src/images/3_bus.jpg";
@@ -55,27 +57,15 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-black" id="slide-2">
-            <div className="hsContainer">
-              <div className="hsContent">
-                <p>
-                  After the Fall of Saigon (now Ho Chi Minh City) and the end of
-                  the <span className="italic-black-slide">Vietnam War</span> in
-                  1975, over one million fled the country in southern Vietnam in
-                  fear of retaliation by the&nbsp;
-                  <span className="red">communists</span>. Typically the
-                  Vietnamese refugees would use old boats, facing the risks of
-                  starvation, storms, and pirate attacks in the open sea.
-                </p>
-                <p>
-                  My father, Van An Nguyen, was one of the Vietnamese boat
-                  people who&nbsp;
-                  <span className="italic-black-slide">fled the country</span>
-                  &nbsp; in 1988 &#8212; five days after I was born.
-                </p>
-              </div>
-            </div>
-          </div>
+          <BlackSLide slideId="slide-2">
+            <p>
+              After the Fall of Saigon (now Ho Chi Minh City) and the end of the <span className="italic">Vietnam War</span> in 1975, over one million fled the country in southern Vietnam in fear of retaliation by the&nbsp;<span className="red">communists</span>.
+              Typically the Vietnamese refugees would use old boats, facing the risks of starvation, storms, and pirate attacks in the open sea.
+            </p>
+            <p>
+              My father, Van An Nguyen, was one of the Vietnamese boat people who&nbsp;<span className="italic">fled the country</span>&nbsp; in 1988 &#8212; five days after I was born.
+            </p>
+          </BlackSLide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -86,23 +76,11 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-photo" id="slide-3">
-            <div className="hsContainer dark">
-              <div className="hsContent">
-                <div className="content">
-                  <p>
-                    When my father made his&nbsp;
-                    <span className="italic-black-slide">
-                      first escape attempt
-                    </span>
-                    , at 21 years old, he had to travel for hours to get to the
-                    awaiting boat by the seaside of Bến Tre, far away from his
-                    hometown, Sài Gòn.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <PhotoSlide slideId="slide-3" overlay="dark">
+            <p>
+              When my father made his&nbsp;<span className="italic">first escape attempt</span>, at 21 years old, he had to travel for hours to get to the awaiting boat by the seaside of Bến Tre, far away from his hometown, Sài Gòn.
+            </p>
+          </PhotoSlide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -113,22 +91,11 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-black" id="slide-4">
-            <div className="hsContainer">
-              <div className="hsContent">
-                <p>
-                  At a street café in Bến Tre, an anonymous helper gave my
-                  father a <span className="green">ripped card</span> as an
-                  identifier. The next day, my father met with another person
-                  who checked&nbsp;
-                  <span className="italic-black-slide">
-                    if his card matched
-                  </span>
-                  &nbsp; to make sure that he wasn't a betrayer.
-                </p>
-              </div>
-            </div>
-          </div>
+          <BlackSLide slideId="slide-4">
+            <p>
+              At a street café in Bến Tre, an anonymous helper gave my father a <span className="green">ripped card</span> as an identifier. The next day, my father met with another person who checked&nbsp;<span className="italic">if his card matched</span>&nbsp; to make sure that he wasn't a betrayer.
+            </p>
+          </BlackSLide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -137,22 +104,11 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-photo" id="slide-5">
-            <div className="hsContainer dark">
-              <div className="hsContent">
-                <div className="content">
-                  <p>
-                    Following the lead of the helper, my father&nbsp;
-                    <span className="italic-black-slide">walked for hours</span>
-                    &nbsp; and took several buses to reach the coast. At the
-                    same time they had to keep an eye out for the&nbsp;
-                    <span className="red">communists</span> and not awake
-                    suspicion among the locals.&nbsp;
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <PhotoSlide slideId="slide-5" overlay="dark">
+            <p>
+              Following the lead of the helper, my father&nbsp;<span className="italic">walked for hours</span>&nbsp; and took several buses to reach the coast. At the same time they had to keep an eye out for the&nbsp;<span className="red">communists</span> and not awake suspicion among the locals.&nbsp;
+            </p>
+          </PhotoSlide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -163,21 +119,11 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-black" id="slide-6">
-            <div className="hsContainer">
-              <div className="hsContent">
-                <p>
-                  When it turned dark, my father and a group of other Vietnamese
-                  people were persecuted by the&nbsp;
-                  <span className="red">communists</span>. Suddenly they heard
-                  <span className="red"> shooting</span> and had no choice but
-                  to&nbsp;
-                  <span className="italic-black-slide">run away</span> and use
-                  the money they had left to get back to the city.
-                </p>
-              </div>
-            </div>
-          </div>
+          <BlackSLide slideId="slide-6">
+            <p>
+              When it turned dark, my father and a group of other Vietnamese people were persecuted by the&nbsp;<span className="red">communists</span>. Suddenly they heard <span className="red"> shooting</span> and had no choice but to&nbsp;<span className="italic">run away</span> and use the money they had left to get back to the city.
+            </p>
+          </BlackSLide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -188,20 +134,11 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-photo" id="slide-7">
-            <div className="hsContainer dark">
-              <div className="hsContent">
-                <div className="content">
-                  <p>
-                    My father was&nbsp;
-                    <span className="italic-black-slide">determined</span> to
-                    make&nbsp; a second attempt and traveled this time to
-                    another city near the Southern coast of Vietnam.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <PhotoSlide slideId="slide-7">
+            <p>
+              My father was&nbsp;<span className="italic">determined</span> to make&nbsp; a second attempt and traveled this time to another city near the Southern coast of Vietnam.
+            </p>
+          </PhotoSlide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -212,50 +149,29 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-photo" id="slide-8">
-            <div className="hsContainer dark">
-              <div className="hsContent">
-                <div className="content">
-                  <p>
-                    At dawn the boat was waiting by the coast of Vũng Tàu. But
-                    just when he thought the operation was successful, the&nbsp;
-                    <span className="red">communists</span> caught on to the
-                    refugees and everyone ran away in&nbsp;
-                    <span className="italic-black-slide">panic</span>.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <PhotoSlide slideId="slide-8" overlay="dark">
+            <p>
+              At dawn the boat was waiting by the coast of Vũng Tàu. But just when he thought the operation was successful, the&nbsp; <span className="red">communists</span> caught on to the refugees and everyone ran away in&nbsp;<span className="italic">panic</span>.
+            </p>
+          </PhotoSlide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
             {
-              image: imgEmptyHouse,
+              image: imgBlack,
               speed: -20,
             },
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-black" id="slide-9">
-            <div className="hsContainer">
-              <div className="hsContent">
-                <p>
-                  In 1984, <span className="italic-black-slide">my mother</span>
-                  &nbsp; encouraged my father to meet with a man she had met and
-                  whom she believed would be able to get my father out of the
-                  country. It turned out this man could not be trusted.
-                </p>
-                <p>
-                  During this&nbsp;
-                  <span className="italic-black-slide">third attempt</span>, my
-                  father was left alone in a house far away in the country side.
-                  Luckily, a local offered her help, because she knew that my
-                  father had been <span className="red">deceived</span>.
-                </p>
-              </div>
-            </div>
-          </div>
+          <BlackSLide slideId="slide-9">
+            <p>
+              In 1984, <span className="italic">my mother</span> encouraged my father to meet with a man she had met and whom she believed would be able to get my father out of the country. It turned out this man could not be trusted.
+            </p>
+            <p>
+              During this&nbsp;<span className="italic">third attempt</span>, my father was left alone in a house far away in the country side. Luckily, a local offered her help, because she knew that my father had been <span className="red">deceived</span>.
+            </p>
+          </BlackSLide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -266,20 +182,11 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-photo" id="slide-10">
-            <div className="hsContainer light">
-              <div className="hsContent">
-                <div className="content">
-                  <p>
-                    Not having any money left, my father&nbsp;
-                    <span className="italic-black-slide">begged</span> the woman
-                    to help him sell his pair of jeans so that he could afford a
-                    return ticket home to Sài Gòn.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <PhotoSlide slideId="slide-10">
+            <p>
+              Not having any money left, my father <span className="italic">begged</span> the woman to help him sell his pair of jeans so that he could afford a return ticket home to Sài Gòn.
+            </p>
+          </PhotoSlide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -290,20 +197,11 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-black" id="slide-11">
-            <div className="hsContainer">
-              <div className="hsContent">
-                <p>
-                  In 1985, at 23 years old, my father was close to achieving his
-                  goal, <span className="italic-black-slide">sailing away</span>
-                  &nbsp; near the seaside of Tiền Giang. The boat, however, got
-                  stuck in the rocks and all the refugees were sentenced
-                  to&nbsp;
-                  <span className="red">prison</span>.
-                </p>
-              </div>
-            </div>
-          </div>
+          <BlackSLide slideId="slide-11">
+            <p>
+              In 1985, at 23 years old, my father was close to achieving his goal, <span className="italic">sailing away</span> near the seaside of Tiền Giang. The boat, however, got stuck in the rocks and all the refugees were sentenced to <span className="red">prison</span>.
+            </p>
+          </BlackSLide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -314,28 +212,14 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-photo" id="slide-12">
-            <div className="hsContainer dark">
-              <div className="hsContent">
-                <div className="content">
-                  <p>
-                    Prisoners had to&nbsp;
-                    <span className="italic-black-slide">work</span> from 6 AM
-                    to 6 PM everyday building a long road deep in the forest.
-                    Anyone who couldn't handle the pressure was buried to the
-                    neck in mud and left from morning to evening.
-                  </p>
-                  <p>
-                    Family visits were only allowed twice a month. During
-                    visitations, my mother and grandmother were allowed to give
-                    my father a small bag of rice and only exchange a&nbsp;
-                    <span className="italic-black-slide">few words</span>&nbsp;
-                    with each other.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <PhotoSlide slideId="slide-12" overlay="dark">
+            <p>
+              Prisoners had to <span className="italic">work</span> from 6 AM to 6 PM everyday building a long road deep in the forest. Anyone who couldn't handle the pressure was buried to the neck in mud and left from morning to evening.
+            </p>
+            <p>
+              Family visits were only allowed twice a month. During visitations, my mother and grandmother were allowed to give my father a small bag of rice and only exchange a <span className="italic">few words</span> with each other.
+            </p>
+          </PhotoSlide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -344,23 +228,11 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-photo" id="slide-14">
-            <div className="hsContainer light">
-              <div className="hsContent">
-                <div className="content">
-                  <p>
-                    After <span className="red">two years in prison</span>, my
-                    father was reunited with my mother in 1987. But at this
-                    point he had&nbsp;
-                    <span className="italic-black-slide">
-                      given up all hope
-                    </span>
-                    &nbsp; of leaving the country.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <PhotoSlide slideId="slide-14">
+            <p>
+              After <span className="red">two years in prison</span>, my father was reunited with my mother in 1987. But at this point he had <span className="italic">given up all hope</span> of leaving the country.
+            </p>
+          </PhotoSlide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -371,27 +243,14 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-black" id="slide-15">
-            <div className="hsContainer">
-              <div className="hsContent">
-                <p>
-                  In 1988, a few days after I was born, a bike&nbsp;
-                  <span className="italic-black-slide">messenger</span> was sent
-                  for my father. He was told that because he had attempted to
-                  flee so many times without luck, the people in charge of the
-                  refugee operation would to let him&nbsp;
-                  <span className="green">board the last boat</span> without
-                  having to pay the required deposit.
-                </p>
-                <p>
-                  Because my mother had&nbsp;
-                  <span className="italic-black-slide">just given birth</span>,
-                  my father declined the offer and asked the woman in charge of
-                  the operation to let my uncle go instead.
-                </p>
-              </div>
-            </div>
-          </div>
+          <BlackSLide slideId="slide-15">
+            <p>
+              In 1988, a few days after I was born, a bike <span className="italic">messenger</span> was sent for my father. He was told that because he had attempted to flee so many times without luck, the people in charge of the refugee operation would to let him <span className="green">board the last boat</span> without having to pay the required deposit.
+            </p>
+            <p>
+              Because my mother had <span className="italic">just given birth</span>, my father declined the offer and asked the woman in charge of the operation to let my uncle go instead.
+            </p>
+          </BlackSLide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -402,28 +261,22 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-photo" id="slide-16">
-            <div className="hsContainer dark">
-              <div className="hsContent">
-                <div className="content">
-                  <p>
-                    [The messenger]: &quot;How do I know he is your real
-                    brother!? I can't just let him go instead of you.&quot;
-                  </p>
-                  <p>
-                    [My father]: &quot;Please, I beg you! I swear he is my real
-                    brother. I can't leave my wife and newborn daughter - I wish
-                    you would let him go instead of me!&quot;
-                  </p>
-                  <p>
-                    [The messenger]: &quot;...okay! But let me tell you that
-                    this is the last boat. If you choose to stay, you will not
-                    get another chance to leave the country!&quot;&nbsp;
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <PhotoSlide slideId="slide-16" overlay="dark">
+            <p>
+              [The messenger]: &quot;How do I know he is your real
+              brother!? I can't just let him go instead of you.&quot;
+            </p>
+            <p>
+              [My father]: &quot;Please, I beg you! I swear he is my real
+              brother. I can't leave my wife and newborn daughter - I wish
+              you would let him go instead of me!&quot;
+            </p>
+            <p>
+              [The messenger]: &quot;...okay! But let me tell you that
+              this is the last boat. If you choose to stay, you will not
+              get another chance to leave the country!&quot;&nbsp;
+            </p>
+          </PhotoSlide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -434,24 +287,20 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-black" id="slide-17">
-            <div className="hsContainer">
-              <div className="hsContent">
-                <p>
-                  When my uncle was about to leave the country, he&nbsp;
-                  <span className="italic-black-slide">hesitated</span> and
-                  didn't want to go without my father.
-                </p>
-                <p>
-                  Filled with&nbsp;
-                  <span className="italic-black-slide">mixed emotions</span>, my
-                  father made the last minute decision to leave the country
-                  together with my uncle&nbsp;
-                  <span className="red">without my mother knowing</span>.
-                </p>
-              </div>
-            </div>
-          </div>
+          <BlackSLide slideId="slide-17">
+            <p>
+              When my uncle was about to leave the country, he&nbsp;
+              <span className="italic">hesitated</span> and
+              didn't want to go without my father.
+            </p>
+            <p>
+              Filled with&nbsp;
+              <span className="italic">mixed emotions</span>, my
+              father made the last minute decision to leave the country
+              together with my uncle&nbsp;
+              <span className="red">without my mother knowing</span>.
+            </p>
+          </BlackSLide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -462,24 +311,18 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-photo" id="slide-18">
-            <div className="hsContainer dark">
-              <div className="hsContent">
-                <div className="content">
-                  <p>
-                    My father's final words to the people in charge of the
-                    refugee operation:
-                  </p>
-                  <p>
-                    &quot;I don't have anything left besides my house. If you
-                    let me go with my brother and I come out of this alive, I
-                    will let my wife know to sell our house and pay you
-                    back!&quot;
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <PhotoSlide slideId="slide-18" overlay="dark">
+            <p>
+              My father's final words to the people in charge of the
+              refugee operation:
+            </p>
+            <p>
+              &quot;I don't have anything left besides my house. If you
+              let me go with my brother and I come out of this alive, I
+              will let my wife know to sell our house and pay you
+              back!&quot;
+            </p>
+          </PhotoSlide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -490,25 +333,21 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-black" id="slide-19">
-            <div className="hsContainer">
-              <div className="hsContent">
-                <p>
-                  After three days in the&nbsp;
-                  <span className="italic-black-slide">open sea</span> and with
-                  only one potato and a cup of water each day, my father, uncle,
-                  and 114 other Vietnamese boat people were&nbsp;
-                  <span className="green">rescued</span> by a German ship.
-                </p>
-                <p>
-                  The German captain reported back home what he saw and his fear
-                  that the refugees would not survive the coming storm - he was
-                  told to let the Vietnamese boat people&nbsp;
-                  <span className="italic-black-slide">board the ship</span>.
-                </p>
-              </div>
-            </div>
-          </div>
+          <BlackSLide slideId="slide-19">
+            <p>
+              After three days in the&nbsp;
+              <span className="italic">open sea</span> and with
+              only one potato and a cup of water each day, my father, uncle,
+              and 114 other Vietnamese boat people were&nbsp;
+              <span className="green">rescued</span> by a German ship.
+            </p>
+            <p>
+              The German captain reported back home what he saw and his fear
+              that the refugees would not survive the coming storm - he was
+              told to let the Vietnamese boat people&nbsp;
+              <span className="italic">board the ship</span>.
+            </p>
+          </BlackSLide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -519,9 +358,7 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-photo" id="slide-20">
-            <div className="hsContainer dark"></div>
-          </div>
+          <PhotoSlide slideId="slide-20"></PhotoSlide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -532,15 +369,9 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-photo" id="slide-21">
-            <div className="hsContainer">
-              <div className="hsContent">
-                <div className="content">
-                  <p>Photos from the rescue in 1988 (1/2)</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <PhotoSlide slideId="slide-21">
+            <p>Photos from the rescue in 1988 (1/2)</p>
+          </PhotoSlide>
         </ParallaxBanner>
         <ParallaxBanner
           layers={[
@@ -551,15 +382,9 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg slide-photo" id="slide-22">
-            <div className="hsContainer">
-              <div className="hsContent">
-                <div className="content">
-                  <p>Photos from the rescue in 1988 (2/2)</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <PhotoSlide slideId="slide-22">
+            <p>Photos from the rescue in 1988 (2/2)</p>
+          </PhotoSlide>
         </ParallaxBanner>
       </article>
     );
