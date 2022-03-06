@@ -139,7 +139,7 @@ const ParallaxContent = () => {
           className="parallax-banner"
         >
           <div className="bcg slide-photo" id="slide-5">
-            <div className="hsContainer light">
+            <div className="hsContainer dark">
               <div className="hsContent">
                 <div className="content">
                   <p>
@@ -270,7 +270,7 @@ const ParallaxContent = () => {
           className="parallax-banner"
         >
           <div className="bcg slide-photo" id="slide-10">
-            <div className="hsContainer">
+            <div className="hsContainer light">
               <div className="hsContent">
                 <div className="content">
                   <p>
@@ -465,7 +465,7 @@ const ParallaxContent = () => {
           className="parallax-banner"
         >
           <div className="bcg slide-photo" id="slide-18">
-            <div className="hsContainer">
+            <div className="hsContainer dark">
               <div className="hsContent">
                 <div className="content">
                   <p>
