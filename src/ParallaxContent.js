@@ -68,11 +68,10 @@ const ParallaxContent = () => {
                   starvation, storms, and pirate attacks in the open sea.
                 </p>
                 <p>
-                  My father, Van An Nguyen, was one of the Vietnamese boat people who&nbsp;
-                  <span className="italic-black-slide">
-                    fled the country
-                  </span>&nbsp;
-                  in 1988 &#8212; five days after I was born.
+                  My father, Van An Nguyen, was one of the Vietnamese boat
+                  people who&nbsp;
+                  <span className="italic-black-slide">fled the country</span>
+                  &nbsp; in 1988 &#8212; five days after I was born.
                 </p>
               </div>
             </div>
@@ -144,11 +143,9 @@ const ParallaxContent = () => {
                 <div className="content">
                   <p>
                     Following the lead of the helper, my father&nbsp;
-                    <span className="italic-black-slide">
-                      walked for hours
-                    </span>&nbsp;
-                    and took several buses to reach the coast. At the same time
-                    they had to keep an eye out for the&nbsp;
+                    <span className="italic-black-slide">walked for hours</span>
+                    &nbsp; and took several buses to reach the coast. At the
+                    same time they had to keep an eye out for the&nbsp;
                     <span className="red">communists</span> and not awake
                     suspicion among the locals.&nbsp;
                   </p>
@@ -300,7 +297,8 @@ const ParallaxContent = () => {
                   In 1985, at 23 years old, my father was close to achieving his
                   goal, <span className="italic-black-slide">sailing away</span>
                   &nbsp; near the seaside of Tiền Giang. The boat, however, got
-                  stuck in the rocks and all the refugees were sentenced to&nbsp;
+                  stuck in the rocks and all the refugees were sentenced
+                  to&nbsp;
                   <span className="red">prison</span>.
                 </p>
               </div>
@@ -356,8 +354,8 @@ const ParallaxContent = () => {
                     point he had&nbsp;
                     <span className="italic-black-slide">
                       given up all hope
-                    </span>&nbsp;
-                    of leaving the country.
+                    </span>
+                    &nbsp; of leaving the country.
                   </p>
                 </div>
               </div>
@@ -473,9 +471,10 @@ const ParallaxContent = () => {
                     refugee operation:
                   </p>
                   <p>
-                    &quot;I don't have anything left besides my house. If you let me
-                    go with my brother and I come out of this alive, I will let
-                    my wife know to sell our house and pay you back!&quot;
+                    &quot;I don't have anything left besides my house. If you
+                    let me go with my brother and I come out of this alive, I
+                    will let my wife know to sell our house and pay you
+                    back!&quot;
                   </p>
                 </div>
               </div>
@@ -521,8 +520,7 @@ const ParallaxContent = () => {
           className="parallax-banner"
         >
           <div className="bcg slide-photo" id="slide-20">
-            <div className="hsContainer dark">
-            </div>
+            <div className="hsContainer dark"></div>
           </div>
         </ParallaxBanner>
         <ParallaxBanner
