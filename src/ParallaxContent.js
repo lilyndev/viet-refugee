@@ -2,6 +2,7 @@ import useScreenOrientation from "react-hook-screen-orientation";
 import { ParallaxBanner } from "react-scroll-parallax";
 import BlackSLide from "./components/BlackSlide";
 import PhotoSlide from "./components/PhotoSlide";
+import IntroSlide from "./components/IntroSlide";
 import imgBoatDark from "../src/images/0_intro_background_boat.jpg";
 import imgBoatDarkForeground from "../src/images/0_intro_background_boat--foreground.png";
 import imgBus from "../src/images/3_bus.jpg";
@@ -9,7 +10,6 @@ import imgCard from "../src/images/5_ripped_card.jpg";
 import imgCardForeground from "../src/images/5_ripped_card--foreground.png";
 import imgLocal from "../src/images/7_local.jpg";
 import imgVungTau from "../src/images/8_vung_tau.jpg";
-import imgEmptyHouse from "../src/images/10_emptyhouse.jpg";
 import imgPants from "../src/images/10_pants.jpg";
 import imgPrison from "../src/images/13_prison.jpg";
 import imgReunited from "../src/images/15_reunited.jpg";
@@ -36,17 +36,7 @@ const ParallaxContent = () => {
           ]}
           className="parallax-banner"
         >
-          <div className="bcg" id="slide-1">
-            <div className="hsContainer dark">
-              <header>
-                <h1>&quot;1988&quot;: A Vietnamese Boat Refugee Story</h1>
-                <p className="byline">
-                  By <a href="http://www.lilyn.dev">Lily Nguyen</a>
-                </p>
-                <span className="scroll-icon">Scroll</span>
-              </header>
-            </div>
-          </div>
+          <IntroSlide />
         </ParallaxBanner>
         <ParallaxBanner
           layers={[

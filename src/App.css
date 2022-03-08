@@ -321,12 +321,19 @@ header a {
 }
 
 /* End slides */
+.slide-end {
+  width: auto;
+  background-color: #000;
+  color: #fff;
+  padding: 3em 2em;
+}
 .slide-end .content {
-  padding: 3%;
+  padding: 0;
   margin: 0 auto;
   text-align: left;
   max-width: 670px;
 }
+.slide-end .content figcaption,
 .slide-end .content p {
   font-family: "Cutive Mono", monospace;
   text-align: left;
@@ -335,12 +342,15 @@ header a {
   line-height: 1.4;
   margin: 0 auto;
 }
+.slide-end .content figcaption {
+  font-style: italic;
+}
 .slide-end .content p:not(:last-child) {
   padding-bottom: 0.5em;
 }
 @media screen and (min-width: 680px) {
-  .slide-end .content {
-    padding: 5% 6% 1% 6%;
+  .slide-end {
+    padding: 6em 2em;
   }
   .slide-end .content p {
     font-size: 1em;
@@ -352,12 +362,12 @@ header a {
   }
 }
 
-.hsMedia {
-  padding: 0 0.8em;
+.media {
+  padding: 0;
   margin: 0 auto;
   display: block;
   text-align: center;
 }
-.hsMedia img {
+.media img {
   max-width: 50%;
 }
