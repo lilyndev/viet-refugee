@@ -1,3 +1,4 @@
+import React from "react";
 import {
   EmailShareButton,
   EmailIcon,
@@ -8,8 +9,8 @@ import {
 } from "react-share";
 
 const SocialMediaShare = () => {
-  const shareUrl = 'http://github.com';
-  const title = 'GitHub'; 
+  const shareUrl = "http://github.com";
+  const title = "GitHub";
   return (
     <div className="social-media">
       <h2>Share: </h2>
@@ -37,7 +38,7 @@ const SocialMediaShare = () => {
         </TwitterShareButton>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default SocialMediaShare;

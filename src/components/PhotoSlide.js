@@ -1,14 +1,16 @@
+import React from "react";
+
 const PhotoSlide = (props) => {
   return (
     <div
-      className={`container slide-photo ${props.overlay === "dark" ? "dark" : "light"}`}
+      className={`container slide-photo ${
+        props.overlay === "dark" ? "dark" : "light"
+      }`}
       id={props.slideId}
     >
-      <div className="content">
-        {props.children}
-      </div>
+      <div className="content">{props.children}</div>
     </div>
-  )
-}
+  );
+};
 
 export default PhotoSlide;

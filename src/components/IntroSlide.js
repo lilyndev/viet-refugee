@@ -1,3 +1,4 @@
+import React from "react";
 import SocialMediaShare from "./SocialMediaShare";
 
 const IntroSlide = () => {
@@ -12,7 +13,7 @@ const IntroSlide = () => {
         <span className="scroll-icon">Scroll</span>
       </header>
     </div>
-  )
-}
+  );
+};
 
 export default IntroSlide;

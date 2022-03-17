@@ -1,3 +1,4 @@
+import React from "react";
 import SocialMediaShare from "./SocialMediaShare";
 import imgDung1 from "../../src/images/dung-ly-1.jpg";
 import imgDung2 from "../../src/images/dung-ly-2.jpg";
@@ -10,13 +11,14 @@ const EndSlide = () => {
       <div className="content">
         <p>
           After the rescue, my father worked at a refugee camp in Hong Kong.
-          Thereafter, he was sent to Denmark.
-          Two years later, my mother and I were reunited with my father.
+          Thereafter, he was sent to Denmark. Two years later, my mother and I
+          were reunited with my father.
         </p>
         <p>
-          Amongst the boat people, my father became close friends with one man named Dung Ly.
-          The last he heard from him was that Dung was living in Texas, USA. 
-          My father doesn't know where Dung is today but hopes that he will one day see Vinh again.
+          Amongst the boat people, my father became close friends with one man
+          named Dung Ly. The last he heard from him was that Dung was living in
+          Texas, USA. My father doesn't know where Dung is today but hopes that
+          he will one day see Vinh again.
         </p>
         <figure className="media">
           <img src={imgDung1} alt="Dung Ly sitting in a library." />
@@ -28,7 +30,7 @@ const EndSlide = () => {
       </div>
       <SocialMediaShare />
     </div>
-  )
-}
+  );
+};
 
 export default EndSlide;

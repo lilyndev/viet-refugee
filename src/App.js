@@ -1,12 +1,11 @@
+import React from "react";
 import "./App.css";
-import ParallaxContent from "./ParallaxContent";
-import EndSlide from "./components/EndSlide";
+import ParallaxContent from "./components/ParallaxContent";
 
 function App() {
   return (
     <div className="App">
       <ParallaxContent />
-      <EndSlide />
     </div>
   );
 }

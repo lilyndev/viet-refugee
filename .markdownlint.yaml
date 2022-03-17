@@ -5,6 +5,6 @@ bullet: false
 html: false
 indentation: false
 line_length: false
-spaces: false
+spaces: true
 url: false
 whitespace: false

@@ -1,4 +1,6 @@
 body {
+  background: #000;
+  color: #f2ead6;
   font-size: 16px;
   font-family: "Libre Baskerville", serif;
   line-height: 1.4;
@@ -124,6 +126,45 @@ header a {
   color: #d20003;
 }
 
+/*------------------------ Screen Orientation ------------------------*/
+
+@media (orientation: landscape) {
+  .content-orientation-landscape {
+    display: block;
+  }
+  .content-orientation-portrait {
+    display: none;
+  }
+}
+
+.screen-orientation-msg {
+  padding: 1rem;
+}
+
+/*------------------------ Slides ------------------------*/
+
+@media (orientation: landscape) {
+  .content-orientation-landscape {
+    display: block;
+  }
+  .content-orientation-portrait {
+    display: none;
+  }
+}
+
+.screen-orientation-msg {
+
+}
+
+@media (orientation: portrait) {
+  .content-orientation-portrait {
+    display: block;
+  }
+  .content-orientation-landscape {
+    display: none;
+  }
+}
+
 /* Slide Black */
 .slide-black.container {
   background-color: #000;
@@ -142,7 +183,6 @@ header a {
   align-items: center;
 }
 .slide-black .content p {
-  color: #f2ead6;
   text-align: left;
   font-weight: normal;
   line-height: 1.45;
@@ -194,7 +234,6 @@ header a {
 .slide-photo .content p {
   font-family: "Cutive Mono", monospace;
   text-align: left;
-  color: #f2ead6;
   font-size: 0.9em;
   line-height: 1.4;
   margin: 0 auto;
@@ -337,7 +376,6 @@ header a {
 .slide-end .content p {
   font-family: "Cutive Mono", monospace;
   text-align: left;
-  color: #f2ead6;
   font-size: 0.9em;
   line-height: 1.4;
   margin: 0 auto;
