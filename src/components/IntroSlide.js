@@ -7,7 +7,7 @@ const IntroSlide = () => {
       <header>
         <h1>&quot;1988&quot;: A Vietnamese Boat Refugee Story</h1>
         <p className="byline">
-          By <a href="http://www.lilyn.dev">Lily Nguyen</a>
+          By <a href="http://www.lilyn.tech">Lily Nguyen</a>
         </p>
         <SocialMediaShare />
         <span className="scroll-icon">Scroll</span>

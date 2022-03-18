@@ -7,15 +7,39 @@ body {
   margin: 0;
 }
 
+/*------------------------ Font Styles ------------------------*/
+
+strong {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/*------------------------ Colors ------------------------*/
+
+.blue {
+  color: #3a9200;
+}
+
+.green {
+  color: #3a9200;
+}
+
+.red {
+  color: #d20003;
+}
+
+/*------------------------ Wrappers ------------------------*/
+
 .parallax-banner {
   height: 100vh;
 }
 .parallax-banner > div:first-child {
   inset: 0 !important;
-}
-
-strong {
-  font-weight: bold;
 }
 
 .container {
@@ -39,6 +63,8 @@ strong {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+/*------------------------ Content and Media ------------------------*/
+
 .content {
   max-width: 780px;
   position: relative;
@@ -51,6 +77,44 @@ strong {
   color: #b2b2b2;
   text-decoration: none;
 }
+
+.media {
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.media img {
+  max-width: 50%;
+}
+
+/*------------------------ Screen Orientation ------------------------*/
+
+@media (orientation: landscape) {
+  .content-orientation-landscape {
+    display: block;
+  }
+  .content-orientation-portrait {
+    display: none;
+  }
+}
+
+@media (orientation: portrait) {
+  .content-orientation-portrait {
+    display: block;
+  }
+  .content-orientation-landscape {
+    display: none;
+  }
+}
+
+.screen-orientation-msg {
+  padding: 1rem;
+}
+
+/*------------------------ Slides ------------------------*/
+
+/* Intro */
 
 header {
   max-width: 800px;
@@ -96,76 +160,8 @@ header a {
   }
 }
 
-.fear {
-  font-style: italic;
-  letter-spacing: 2px;
-}
-
-.marker {
-  font-weight: normal;
-  color: #fff8de;
-  font-size: 25px;
-  line-height: 5px;
-}
-
-.blue {
-  color: #3a9200;
-}
-
-.green {
-  color: #3a9200;
-}
-
-.italic {
-  font-style: italic;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
-.red {
-  color: #d20003;
-}
-
-/*------------------------ Screen Orientation ------------------------*/
-
-@media (orientation: landscape) {
-  .content-orientation-landscape {
-    display: block;
-  }
-  .content-orientation-portrait {
-    display: none;
-  }
-}
-
-.screen-orientation-msg {
-  padding: 1rem;
-}
-
-/*------------------------ Slides ------------------------*/
-
-@media (orientation: landscape) {
-  .content-orientation-landscape {
-    display: block;
-  }
-  .content-orientation-portrait {
-    display: none;
-  }
-}
-
-.screen-orientation-msg {
-
-}
-
-@media (orientation: portrait) {
-  .content-orientation-portrait {
-    display: block;
-  }
-  .content-orientation-landscape {
-    display: none;
-  }
-}
-
 /* Slide Black */
+
 .slide-black.container {
   background-color: #000;
 }
@@ -222,7 +218,8 @@ header a {
   }
 }
 
-/* Regular slides */
+/* Photo slides */
+
 .slide-photo .content {
   margin: 2%;
   position: absolute;
@@ -360,6 +357,7 @@ header a {
 }
 
 /* End slides */
+
 .slide-end {
   width: auto;
   background-color: #000;
@@ -398,14 +396,4 @@ header a {
   .slide-end .content p {
     font-size: 1.1em;
   }
-}
-
-.media {
-  padding: 0;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-}
-.media img {
-  max-width: 50%;
 }
