@@ -144,12 +144,14 @@ header .byline {
   text-align: center;
   margin: 0 auto 8% auto;
   padding: 0.5em 0;
+  font-family: "Cutive Mono", monospace;
 }
 header .byline a {
   color: #88b5dd;
 }
 header span.scroll-icon {
   margin-top: 1em;
+  font-family: "Cutive Mono", monospace;
 }
 header a {
   text-decoration: underline;
@@ -396,4 +398,33 @@ header a {
   .slide-end .content p {
     font-size: 1.1em;
   }
+}
+
+/*------------------------ Social Media and Share ------------------------*/
+
+.social-share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-btn {
+  margin-right: 0.4em;
+}
+
+#slide-1 .social-share {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.social-share h2 {
+  font-family: "Cutive Mono", monospace;
+  font-size: 1em;
+  margin-right: 0.6em;
+}
+
+.social-share h2,
+.social-share .share-icons {
+  display: inline;
 }
