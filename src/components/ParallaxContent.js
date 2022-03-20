@@ -10,7 +10,8 @@ import imgCard from "../../src/images/5_ripped_card.jpg";
 import imgCardForeground from "../../src/images/5_ripped_card--foreground.png";
 import imgLocal from "../../src/images/7_local.jpg";
 import imgVungTau from "../../src/images/8_vung_tau.jpg";
-import imgPants from "../../src/images/10_pants.jpg";
+import imgPantsBackground from "../../src/images/10_pants--background.jpg";
+import imgPantsForeground from "../../src/images/10_pants--foreground.png";
 import imgPrison from "../../src/images/13_prison.jpg";
 import imgReunited from "../../src/images/15_reunited.jpg";
 import imgReunitedForeground from "../../src/images/15_reunited--foreground.png";
@@ -204,14 +205,12 @@ const ParallaxContent = () => {
           </ParallaxBanner>
           <ParallaxBanner
             layers={[
-              {
-                image: imgPants,
-                speed: -20,
-              },
+              { image: imgPantsBackground, speed: -20 },
+              { image: imgPantsForeground, speed: -10 },
             ]}
             className="parallax-banner"
           >
-            <PhotoSlide slideId="slide-10">
+            <PhotoSlide slideId="slide-10" overlay="dark">
               <p>
                 Not having any money left, my father{" "}
                 <span className="italic">begged</span> the woman to help him

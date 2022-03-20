@@ -8,7 +8,7 @@ const PhotoSlide = (props) => {
       }`}
       id={props.slideId}
     >
-      <div className="content">{props.children}</div>
+      {props.children ? <div className="content">{props.children}</div> : ""}
     </div>
   );
 };
