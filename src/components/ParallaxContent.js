@@ -155,7 +155,7 @@ const ParallaxContent = () => {
             <PhotoSlide slideId="slide-7">
               <p>
                 My father was&nbsp;<span className="italic">determined</span> to
-                make&nbsp; a second attempt and traveled this time to another
+                make a second attempt and traveled this time to another
                 city near the Southern coast of Vietnam.
               </p>
             </PhotoSlide>
@@ -172,7 +172,7 @@ const ParallaxContent = () => {
             <PhotoSlide slideId="slide-8" overlay="dark">
               <p>
                 At dawn the boat was waiting by the coast of Vũng Tàu. But just
-                when he thought the operation was successful, the&nbsp;{" "}
+                when he thought the operation was successful, the&nbsp;
                 <span className="red">communists</span> caught on to the
                 refugees and everyone ran away in&nbsp;
                 <span className="italic">panic</span>.
@@ -247,7 +247,7 @@ const ParallaxContent = () => {
             ]}
             className="parallax-banner"
           >
-            <PhotoSlide slideId="slide-12" overlay="dark">
+            <PhotoSlide slideId="slide-12" overlay="light">
               <p>
                 Prisoners had to <span className="italic">work</span> from 6 AM
                 to 6 PM everyday building a long road deep in the forest. Anyone
@@ -364,7 +364,7 @@ const ParallaxContent = () => {
             ]}
             className="parallax-banner"
           >
-            <PhotoSlide slideId="slide-18" overlay="dark">
+            <PhotoSlide slideId="slide-18" overlay="light">
               <p>
                 My father's final words to the people in charge of the refugee
                 operation:
