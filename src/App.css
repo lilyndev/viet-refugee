@@ -55,6 +55,13 @@ strong {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.45);
 }
+.container.xtra-dark::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
 .container.light::after {
   content: "";
   display: block;
@@ -109,7 +116,21 @@ strong {
 }
 
 .screen-orientation-msg {
-  padding: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+.screen-orientation-msg img {
+  width: 50%;
+}
+.screen-orientation-msg p {
+  font-family: "Cutive Mono", monospace;
+}
+.screen-orientation-msg p.large {
+  font-size: 1.2em;
+}
+.screen-orientation-msg footer {
+  border-top: 1px solid;
+  padding-top: 1em;
 }
 
 /*------------------------ Slides ------------------------*/

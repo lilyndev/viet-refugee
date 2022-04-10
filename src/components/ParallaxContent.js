@@ -21,7 +21,6 @@ import imgBoatBlackWhite from "../../src/images/21_boat_blackwhite.jpg";
 import imgBoatColor from "../../src/images/21_boat_color.jpg";
 import imgRescue from "../../src/images/23_the_rescue.jpg";
 import imgBlack from "../../src/images/black.jpg";
-import EndSlide from "../components/EndSlide";
 import ScreenOrientationMsg from "./ScreenOrientationMsg";
 
 const ParallaxContent = () => {
@@ -155,8 +154,8 @@ const ParallaxContent = () => {
             <PhotoSlide slideId="slide-7">
               <p>
                 My father was&nbsp;<span className="italic">determined</span> to
-                make a second attempt and traveled this time to another
-                city near the Southern coast of Vietnam.
+                make a second attempt and traveled this time to another city
+                near the Southern coast of Vietnam.
               </p>
             </PhotoSlide>
           </ParallaxBanner>
@@ -438,7 +437,6 @@ const ParallaxContent = () => {
               <p>Photos from the rescue in 1988 (2/2)</p>
             </PhotoSlide>
           </ParallaxBanner>
-          <EndSlide />
         </article>
       </div>
     </>
