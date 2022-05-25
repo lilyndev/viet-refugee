@@ -1,5 +1,4 @@
 import React from "react";
-import SocialMediaShare from "./SocialMediaShare";
 import ContactUs from "./Contact";
 import imgDung1 from "../../src/images/dung-ly-1.jpg";
 import imgDung2 from "../../src/images/dung-ly-letter-2.jpg";
@@ -38,7 +37,6 @@ const EndSlide = () => {
           </figcaption>
         </figure>
       </div>
-      <SocialMediaShare />
       <ContactUs />
     </div>
   );
