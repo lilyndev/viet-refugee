@@ -87,12 +87,15 @@ strong {
 
 .media {
   padding: 0;
-  margin: 0 auto;
+  margin: 1em auto 2.5em auto;
   display: block;
   text-align: center;
 }
 .media img {
   max-width: 50%;
+}
+.media.fullwidth img {
+  max-width: 100%;
 }
 
 /*------------------------ Screen Orientation ------------------------*/
@@ -421,8 +424,9 @@ header a {
   }
 }
 
-/*------------------------ Social Media and Share ------------------------*/
+/*------------------------ Social Media Share and Contact ------------------------*/
 
+.contact,
 .social-share {
   display: flex;
   align-items: center;
@@ -439,13 +443,21 @@ header a {
   right: 1em;
 }
 
+.contact h2,
+.contact-email a,
 .social-share h2 {
   font-family: "Cutive Mono", monospace;
   font-size: 1em;
   margin-right: 0.6em;
 }
 
+.contact-email a {
+  color: #0084ff;
+}
+
+.contact h2,
 .social-share h2,
+.contact-email,
 .social-share .share-icons {
   display: inline;
 }

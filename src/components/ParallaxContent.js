@@ -3,6 +3,7 @@ import { ParallaxBanner } from "react-scroll-parallax";
 import BlackSLide from "./BlackSlide";
 import PhotoSlide from "./PhotoSlide";
 import IntroSlide from "./IntroSlide";
+import EndSlide from "./EndSlide";
 import imgBoatDark from "../../src/images/0_intro_background_boat.jpg";
 import imgBoatDarkForeground from "../../src/images/0_intro_background_boat--foreground.png";
 import imgBus from "../../src/images/3_bus.jpg";
@@ -437,6 +438,7 @@ const ParallaxContent = () => {
               <p>Photos from the rescue in 1988 (2/2)</p>
             </PhotoSlide>
           </ParallaxBanner>
+          <EndSlide />
         </article>
       </div>
     </>
