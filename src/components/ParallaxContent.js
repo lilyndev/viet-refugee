@@ -63,7 +63,7 @@ const ParallaxContent = () => {
               <p>
                 My father, Van An Nguyen, was one of the Vietnamese boat people
                 who&nbsp;<span className="italic">fled the country</span>&nbsp;
-                in 1988 &#8212; five days after I was born.
+                in 1988.
               </p>
             </BlackSLide>
           </ParallaxBanner>
