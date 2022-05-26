@@ -289,7 +289,7 @@ const ParallaxContent = () => {
           >
             <BlackSLide slideId="slide-15">
               <p>
-                In 1988, a few days after I was born, a bike{" "}
+                In the Spring of 1988 a bike{" "}
                 <span className="italic">messenger</span> was sent for my
                 father. He was told that because he had attempted to flee so
                 many times without luck, the people in charge of the refugee
