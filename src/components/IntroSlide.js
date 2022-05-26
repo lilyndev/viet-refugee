@@ -8,12 +8,12 @@ const IntroSlide = () => {
         <div className="slide-intro__info">
           <p>
             A boat refugee story of how my father fled Vietnam in 1988 after his
-            fifth try.
+            fifth try
           </p>
           <div className="byline">By Lily Nguyen</div>
         </div>
         <div className="scroll-icon">
-          <span>Scroll</span>
+          <span>Scroll Down</span>
           <svg
             id="scroll-down"
             width="16"

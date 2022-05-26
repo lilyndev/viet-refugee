@@ -153,12 +153,10 @@ header {
 header h1 {
   margin-bottom: 0.6em;
   font-weight: normal;
-  color: #fff8de;
+  color: #FFD600;
   font-size: 2.1em;
   line-height: 1.2;
 }
-header h1,
-header a,
 header span {
   color: #fff8de;
 }
@@ -172,6 +170,12 @@ header span {
   font-family: "Cutive Mono", monospace;
   font-size: 1em;
 }
+.slide-intro__info p {
+  font-weight: bold;
+}
+header a {
+  text-decoration: underline;
+}
 header p a {
   color: #88b5dd;
 }
@@ -182,9 +186,6 @@ header .scroll-icon {
 header .scroll-icon span {
   display: block;
   margin-bottom: 0.2em;
-}
-header a {
-  text-decoration: underline;
 }
 @media screen and (min-width: 1000px) {
   header h1 {
