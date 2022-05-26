@@ -29,7 +29,7 @@ const EndSlide = () => {
         <figure className="media">
           <img src={imgDung1} alt="" />
           <img src={imgDung2} alt="" />
-          <img src={imgDung3} alt="." />
+          <img src={imgDung3} alt="" />
           <img src={imgDung4} alt="" />
           <figcaption>
             Photos of Dung Ly with hand-written notes on the back-side of each
