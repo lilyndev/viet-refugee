@@ -492,3 +492,10 @@ header .scroll-icon span {
 .social-share .share-icons {
   display: inline;
 }
+
+/*------------------------ Copyright ------------------------*/
+
+.copyright {
+  text-align: center;
+  margin-top: 3em;
+}
