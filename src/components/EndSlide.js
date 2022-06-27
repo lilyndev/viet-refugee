@@ -1,9 +1,9 @@
 import React from "react";
 import ContactUs from "./Contact";
-import imgDung1 from "../../src/images/dung-ly-1.jpg";
-import imgDung2 from "../../src/images/dung-ly-letter-2.jpg";
-import imgDung3 from "../../src/images/dung-ly-2.jpg";
-import imgDung4 from "../../src/images/dung-ly-letter-1.jpg";
+import imgDung1 from "../../src/images/dung-ly-1.webp";
+import imgDung2 from "../../src/images/dung-ly-letter-2.webp";
+import imgDung3 from "../../src/images/dung-ly-2.webp";
+import imgDung4 from "../../src/images/dung-ly-letter-1.webp";
 
 const EndSlide = () => {
   return (
