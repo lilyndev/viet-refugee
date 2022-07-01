@@ -13,10 +13,10 @@ const PhotoSlide = (props) => {
   );
 };
 
-PhotoSlide.PropTypes = {
+PhotoSlide.propTypes = {
   overlay: PropTypes.string,
   slideId: PropTypes.string,
-  children: PropTypes.element.isRequired,
+  children: PropTypes.any,
 };
 
 export default PhotoSlide;

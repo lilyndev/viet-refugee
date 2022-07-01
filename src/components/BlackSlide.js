@@ -8,9 +8,9 @@ const BlackSLide = (props) => {
   );
 };
 
-BlackSLide.PropTypes = {
+BlackSLide.propTypes = {
   slideId: PropTypes.string,
-  children: PropTypes.element.isRequired,
+  children: PropTypes.any.isRequired,
 };
 
 export default BlackSLide;
