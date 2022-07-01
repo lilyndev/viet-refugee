@@ -1,4 +1,3 @@
-import React from "react";
 import ContactUs from "./Contact";
 import imgDung1 from "../../src/images/dung-ly-1.webp";
 import imgDung2 from "../../src/images/dung-ly-letter-2.webp";

@@ -1,5 +1,3 @@
-import React from "react";
-
 const BlackSLide = (props) => {
   return (
     <div className="container slide-black" id={props.slideId}>

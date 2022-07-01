@@ -1,4 +1,3 @@
-import React from "react";
 import { ParallaxBanner } from "react-scroll-parallax";
 import BlackSLide from "./BlackSlide";
 import PhotoSlide from "./PhotoSlide";
@@ -101,7 +100,7 @@ const ParallaxContent = () => {
                 a <span className="green">ripped card</span> as an identifier.
                 The next day, my father met with another person who
                 checked&nbsp;<span className="italic">if his card matched</span>
-                &nbsp; to make sure that he wasn't a betrayer.
+                &nbsp; to make sure that he wasn&#39;t a betrayer.
               </p>
             </BlackSLide>
           </ParallaxBanner>
@@ -251,8 +250,8 @@ const ParallaxContent = () => {
               <p>
                 Prisoners had to <span className="italic">work</span> from 6 AM
                 to 6 PM everyday building a long road deep in the forest. Anyone
-                who couldn't handle the pressure was buried to the neck in mud
-                and left from morning to evening.
+                who couldn&#39;t handle the pressure was buried to the neck in
+                mud and left from morning to evening.
               </p>
               <p>
                 Family visits were only allowed twice a month. During
@@ -317,12 +316,12 @@ const ParallaxContent = () => {
             <PhotoSlide slideId="slide-16" overlay="dark">
               <p>
                 [The messenger]: &quot;How do I know he is your real brother!? I
-                can't just let him go instead of you.&quot;
+                can&#39;t just let him go instead of you.&quot;
               </p>
               <p>
                 [My father]: &quot;Please, I beg you! I swear he is my real
-                brother. I can't leave my wife and newborn daughter - I wish you
-                would let him go instead of me!&quot;
+                brother. I can&#39;t leave my wife and newborn daughter - I wish
+                you would let him go instead of me!&quot;
               </p>
               <p>
                 [The messenger]: &quot;...okay! But let me tell you that this is
@@ -343,8 +342,8 @@ const ParallaxContent = () => {
             <BlackSLide slideId="slide-17">
               <p>
                 When my uncle was about to leave the country, he&nbsp;
-                <span className="italic">hesitated</span> and didn't want to go
-                without my father.
+                <span className="italic">hesitated</span> and didn&#39;t want to
+                go without my father.
               </p>
               <p>
                 Filled with&nbsp;
@@ -366,13 +365,13 @@ const ParallaxContent = () => {
           >
             <PhotoSlide slideId="slide-18" overlay="light">
               <p>
-                My father's final words to the people in charge of the refugee
-                operation:
+                My father&#39;s final words to the people in charge of the
+                refugee operation:
               </p>
               <p>
-                &quot;I don't have anything left besides my house. If you let me
-                go with my brother and I come out of this alive, I will let my
-                wife know to sell our house and pay you back!&quot;
+                &quot;I don&#39;t have anything left besides my house. If you
+                let me go with my brother and I come out of this alive, I will
+                let my wife know to sell our house and pay you back!&quot;
               </p>
             </PhotoSlide>
           </ParallaxBanner>

@@ -1,10 +1,8 @@
-import React from "react";
-
 const IntroSlide = () => {
   return (
     <div className="slide-intro container xtra-dark" id="slide-1">
       <header>
-        <h1>1988: My Father's Story as a Vietnamese Boat Refugee</h1>
+        <h1>1988: My Father&#39;s Story as a Vietnamese Boat Refugee</h1>
         <div className="slide-intro__info">
           <div className="byline">By Lily Nguyen</div>
         </div>

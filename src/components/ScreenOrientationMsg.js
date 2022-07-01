@@ -1,4 +1,3 @@
-import React from "react";
 import rotateDevice from "../../src/images/rotate-landscape.svg";
 
 const ScreenOrientationMsg = () => {
