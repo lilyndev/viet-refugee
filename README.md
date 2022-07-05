@@ -1,6 +1,4 @@
-# Personal Parallax Site
-
-Link: [VietRefugee.com](https://www.vietrefugee.com)
+# [VietRefugee.com](https://www.vietrefugee.com)
 
 Personal Vietnamese boat refugee story utilizing parallax scrolling.
 
